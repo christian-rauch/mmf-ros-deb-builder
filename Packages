@@ -1,0 +1,72 @@
+Package: ros-humble-densecrf-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.12.10.11.43
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-densecrf
+Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
+Installed-Size: 2555
+Depends: ros-humble-densecrf (= 0-2023.12.10.11.43)
+Filename: ./ros-humble-densecrf-dbgsym_0-2023.12.10.11.43_amd64.ddeb
+Size: 2537914
+MD5sum: 897e1ad39a8fc0f75ba4aa04f29bc7c8
+SHA1: b489e3d19919dd58ca08fabc504db170406b5240
+SHA256: 29184933149c7d93ab311faca5ceafddf9efe9e58833c87fa9be3a8c0a7b32cf
+SHA512: 6ae1df5d5e87c6ade59e92f671a95d5ef9323920f2525f3bf45e6e4ec34ee96d6e9e73e54055cf2ec4ce349626576c869728cabc890e64bdd004c78c4d3ea50f
+Description: debug symbols for ros-humble-densecrf
+Build-Ids: 68e9b8587bef74e89f0e662f84e1f99f10cd0d20 832316a7ce996f54df4508435942e3bc7a198eda
+
+Package: ros-humble-densecrf
+Architecture: amd64
+Version: 0-2023.12.10.11.43
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
+Installed-Size: 216
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libeigen3-dev
+Filename: ./ros-humble-densecrf_0-2023.12.10.11.43_amd64.deb
+Size: 73284
+MD5sum: 35c272518009e56ff7c69d6d67beeef7
+SHA1: ebbc808656d2367b07811a3518756243ce524030
+SHA256: c6e552bfdf7d4ab1d17122cf30cab84d32fed7670a51b41bfc27a22c04be2123
+SHA512: 079ea5226ce833d8e98ad10ea119727c8a7d5e4ea4f5d5c16cdb7df885e6da5a1dbc5b3988898df395346809729924aa110f348f2948ee4152c6bd3853691353
+Description: The densecrf package
+
+Package: ros-humble-pangolin-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.8-57-gd4844946-2023.12.10.11.43
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-pangolin
+Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
+Installed-Size: 32025
+Depends: ros-humble-pangolin (= 0.8-57-gd4844946-2023.12.10.11.43)
+Filename: ./ros-humble-pangolin-dbgsym_0.8-57-gd4844946-2023.12.10.11.43_amd64.ddeb
+Size: 30407252
+MD5sum: d42ac3a6ec1ce3370fd5c071e4224682
+SHA1: 017158809721d86e6321ab6f8c9236464ef39d20
+SHA256: b5e5190beda65b052625f704aa2c82d27365180928511d2b2da6a39bc9ad9e71
+SHA512: 5af7944e54a916393133e28be8d0cc0aa8a4f2cac26fb7a4d786bb3cfdba86c08390a18c50918753f6330706e60e60ca267e88246ae3273e90dcc5f6676cd5b0
+Description: debug symbols for ros-humble-pangolin
+Build-Ids: 00be23ae68cbc2f25a10ab7331053657582e3ab5 036cac725a380f12f6a0ca9cc6b955dd0481d001 0adfad8248c63dd6968dedc6c84128c3b3d8ed8f 452b7950bea71a392994ce04f0f19f264577915e 4a226688abfa0c8faa63670095c85f74f5fd31fa 5cebd790beedd3281133b0d6e42c5cec16085740 631148331316c730273d4a1d8c59c1e0a8831f6c 6d7a5c073e3e2e369808f9aa3448ac022d6e21f0 807c95a79bced169c7c067f784ee8544effedcf7 a0d3f175c8296fbcc2194d9b662b28c9f0b34af2 ace864398fae9b2915d8fc583063260452e139b5 ae5bc7ba2fb397a88ab41c61c61461978e7978e1 b4e3907e14178e5451d359decd704553e4497fa2 b9910ca5406e8aa5a269a87459ee17837813e0cb c3d070b3816236744c441c2e4b71e9b55c89003e d81499b0393f2af3ebd0a11c4038e5b31b261692 e0575082f0e32005081cbbd45b26da099fe83061 ea2bf5822e0046d414db5296ce02ec4f53206b12 f3d0c6e4de021ea528c7c9f08afa2f4962cf44da f7b01940112e649642dac54f0021c6cde2681d91
+
+Package: ros-humble-pangolin
+Architecture: amd64
+Version: 0.8-57-gd4844946-2023.12.10.11.43
+Priority: optional
+Section: misc
+Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
+Installed-Size: 5090
+Depends: libc6 (>= 2.34), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglx0, libopengl0, libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), libx11-6, libglew-dev, python3-dev
+Filename: ./ros-humble-pangolin_0.8-57-gd4844946-2023.12.10.11.43_amd64.deb
+Size: 1286564
+MD5sum: 94cab5f5b7cb64bad1f2a158b4b378e8
+SHA1: 68016f3c8c82b5de861ba43d6537b7a0654c330f
+SHA256: c8e6c744881eb693d0c4c32da9158b6ffc72368a2fb738bd966ea9e5eead3b52
+SHA512: 589d4687bb148fa8c39aa20d557c11226f4cdee0a7fd45ceb27df80386d8a1c44f9a481e53483820461b8a7933ea8bed2c35ddca2fe47feeca0f58540d0a4664
+Description: Pangolin is a set of lightweight and portable utility libraries for prototyping 3D, numeric or video based programs and algorithms.
+

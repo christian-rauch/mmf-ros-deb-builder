@@ -1,0 +1,6 @@
+densecrf:
+  ubuntu:
+  - ros-humble-densecrf
+pangolin:
+  ubuntu:
+  - ros-humble-pangolin
