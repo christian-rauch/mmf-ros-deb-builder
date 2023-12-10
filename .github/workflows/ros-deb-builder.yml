@@ -13,10 +13,6 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - name: enable netowrk for sbuild
-        run: |
-          echo "$build_environment = {DISABLE_NETWORK => 0};" > ~/.sbuildrc
-
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: humble
