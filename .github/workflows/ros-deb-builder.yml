@@ -11,10 +11,31 @@ on:
 jobs:
   build:
     runs-on: ubuntu-22.04
+    container:
+      image: ubuntu:22.04
+      options: --privileged
+      volumes:
+        - /mnt:/tmp
 
     steps:
+      - run: |
+          chmod 777 /tmp
+          df -h
+
+      - run: |
+          apt update
+          apt install -y sudo
+          sudo apt install -y cmake
+          cmake --version
+          sudo apt install -y curl lsb-release software-properties-common
+          sudo apt install -y nvidia-cuda-toolkit
+
+      - run: |
+          usermod --add-subuids 100000-165535 --add-subgids 100000-165535 $(whoami)
+
       - uses: christianrauch/ros-deb-builder-action@network
         with:
           ROS_DISTRO: humble
           DEB_DISTRO: jammy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
