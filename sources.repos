@@ -2,8 +2,16 @@ repositories:
   src/Pangolin:
     type: git
     url: https://github.com/stevenlovegrove/Pangolin.git
-    version: d484494645cb7361374ac0ef6b27e9ee6feffbd7
+    version: 57d842493d5c3b1472837e4ec639f0c137b06e39
   src/densecrf:
     type: git
     url: https://github.com/christian-rauch/densecrf.git
     version: 593a10d24fc1785b6581f53848ee9b8f00876865
+  src/libtorch-colcon:
+    type: git
+    url: https://github.com/christianrauch/libtorch-colcon.git
+    version: 5bce20b4a679207db8c92f1ef5264efa836d35c6
+  src/super_point_inference:
+    type: git
+    url: https://github.com/christian-rauch/super_point_inference_v2.git
+    version: a3f433f779542c9e8731bc2705cefbf2f12ad1cc

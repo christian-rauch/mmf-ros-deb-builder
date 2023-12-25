@@ -1,72 +1,144 @@
 Package: ros-humble-densecrf-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2023.12.10.11.43
+Version: 0-2023.12.25.10.47
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-densecrf
 Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
 Installed-Size: 2555
-Depends: ros-humble-densecrf (= 0-2023.12.10.11.43)
-Filename: ./ros-humble-densecrf-dbgsym_0-2023.12.10.11.43_amd64.ddeb
-Size: 2537914
-MD5sum: 897e1ad39a8fc0f75ba4aa04f29bc7c8
-SHA1: b489e3d19919dd58ca08fabc504db170406b5240
-SHA256: 29184933149c7d93ab311faca5ceafddf9efe9e58833c87fa9be3a8c0a7b32cf
-SHA512: 6ae1df5d5e87c6ade59e92f671a95d5ef9323920f2525f3bf45e6e4ec34ee96d6e9e73e54055cf2ec4ce349626576c869728cabc890e64bdd004c78c4d3ea50f
+Depends: ros-humble-densecrf (= 0-2023.12.25.10.47)
+Filename: ./ros-humble-densecrf-dbgsym_0-2023.12.25.10.47_amd64.ddeb
+Size: 2538018
+MD5sum: 74e082840a81c446dedab957f8db7b64
+SHA1: 358ba9d21c53fad6076bab0a54a9edada1f3c932
+SHA256: fbf178e335389f33b88295cacde35c328916a5dbbde69b8538e13b48bc8a33fe
+SHA512: 0f201e8975b20f2e3d88ae449d109c62ee75e3155016eb29387e8d82f60296cdc6d34ee1832967cc6b0fd8d1330d877dd6e7ed19c757a880f2e9e03b4a92aefa
 Description: debug symbols for ros-humble-densecrf
-Build-Ids: 68e9b8587bef74e89f0e662f84e1f99f10cd0d20 832316a7ce996f54df4508435942e3bc7a198eda
+Build-Ids: 1cf27ad9a3b646abfd61b523382115032283609c c4d62113551505b205dbafa7a057ab21cb7a6af8
 
 Package: ros-humble-densecrf
 Architecture: amd64
-Version: 0-2023.12.10.11.43
+Version: 0-2023.12.25.10.47
 Priority: optional
 Section: misc
 Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
 Installed-Size: 216
 Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libeigen3-dev
-Filename: ./ros-humble-densecrf_0-2023.12.10.11.43_amd64.deb
-Size: 73284
-MD5sum: 35c272518009e56ff7c69d6d67beeef7
-SHA1: ebbc808656d2367b07811a3518756243ce524030
-SHA256: c6e552bfdf7d4ab1d17122cf30cab84d32fed7670a51b41bfc27a22c04be2123
-SHA512: 079ea5226ce833d8e98ad10ea119727c8a7d5e4ea4f5d5c16cdb7df885e6da5a1dbc5b3988898df395346809729924aa110f348f2948ee4152c6bd3853691353
+Filename: ./ros-humble-densecrf_0-2023.12.25.10.47_amd64.deb
+Size: 73290
+MD5sum: 46271de2bbc53520ac089a682d0034ce
+SHA1: e6549feb4905a76ce79f2638fdd67bb4a59e97eb
+SHA256: c0d7ae6f8110dfef5061580133c7b71a57e92b01bd1b482eae25ab4c8b75a563
+SHA512: a561d2bbd6f98e75f87318b5a0a7fa3ea3b0854f118d028a22f572dfc1298fe580f5f0f5ee6a95af409f920a66018c4a9afcdb5cbb4eb92ee98a65feebbaa1c1
 Description: The densecrf package
+
+Package: ros-humble-libtorch-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.12.25.10.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-libtorch
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1256924
+Depends: ros-humble-libtorch (= 0-2023.12.25.10.48)
+Filename: ./ros-humble-libtorch-dbgsym_0-2023.12.25.10.48_amd64.ddeb
+Size: 1187880208
+MD5sum: 09971b4f133f58c2e6803c197e5e733e
+SHA1: 4daa93cf9014cbebe013e181ecf7d40639e862cf
+SHA256: 234e869a112ed0256c770fbd954d0096003301343e3c922386c8e8620b78310d
+SHA512: 2b7f2f6f964d43b8c44caf014cbbdbdd14443cb7ca5737719423a3a11b34f6a506a04239523c9b88019f503c51330c4c6278c4068887634d4e0b1b711590cd2b
+Description: debug symbols for ros-humble-libtorch
+Build-Ids: 9a90c15ec0bd3a70148284e44f561d38b138442b a068fe4e4bc2ec76b4af6454140c1fd9bff20988 a2c92ee11bafbe354f1d5655000359f09be8824b f3d7abbf9e0bce77829933b7b95467c234a24018
+
+Package: ros-humble-libtorch
+Architecture: amd64
+Version: 0-2023.12.25.10.48
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 422229
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.4), libgomp1 (>= 4.9), libstdc++6 (>= 12)
+Filename: ./ros-humble-libtorch_0-2023.12.25.10.48_amd64.deb
+Size: 62114486
+MD5sum: 0ef16d1e8cd60172be1b9ea4aba661b6
+SHA1: 9f66c5d8961149c47174e65f40ac6763dc2fa1c2
+SHA256: b190d88ea9bc395746bf4a92f5960b44b22c8c35c957715512f8130d4349ef64
+SHA512: 131270eb4df4e09c72854ba0c20b8aec0d5e7c2b9eac17fa069bd3868e8af3a09ab8d366f440ee7c367a5720373bb383c95d90ea35bccac8bfca902ba021a694
+Description: PyTorch C++ API
 
 Package: ros-humble-pangolin-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8-57-gd4844946-2023.12.10.11.43
+Version: 0.8-59-g57d84249-2023.12.25.12.57
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-pangolin
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
 Installed-Size: 32025
-Depends: ros-humble-pangolin (= 0.8-57-gd4844946-2023.12.10.11.43)
-Filename: ./ros-humble-pangolin-dbgsym_0.8-57-gd4844946-2023.12.10.11.43_amd64.ddeb
-Size: 30407252
-MD5sum: d42ac3a6ec1ce3370fd5c071e4224682
-SHA1: 017158809721d86e6321ab6f8c9236464ef39d20
-SHA256: b5e5190beda65b052625f704aa2c82d27365180928511d2b2da6a39bc9ad9e71
-SHA512: 5af7944e54a916393133e28be8d0cc0aa8a4f2cac26fb7a4d786bb3cfdba86c08390a18c50918753f6330706e60e60ca267e88246ae3273e90dcc5f6676cd5b0
+Depends: ros-humble-pangolin (= 0.8-59-g57d84249-2023.12.25.12.57)
+Filename: ./ros-humble-pangolin-dbgsym_0.8-59-g57d84249-2023.12.25.12.57_amd64.ddeb
+Size: 30407546
+MD5sum: 773d62a74603ef3b00d84ca5c96c6232
+SHA1: aaad2eb5ca154ad89865916d67115bafc64f5e7d
+SHA256: 340889f60550701a4266e56c3dab30701ecfd56571bbb5adacbd7831fafbed5b
+SHA512: aef7b25fa3fa478938bdc3e81464416aecd6ad3c11368c8de5fd618eb4968a6ca04eb0e01e9d76559b2a91b443dba5e21ca2122343b3f2be938294d4bc269630
 Description: debug symbols for ros-humble-pangolin
-Build-Ids: 00be23ae68cbc2f25a10ab7331053657582e3ab5 036cac725a380f12f6a0ca9cc6b955dd0481d001 0adfad8248c63dd6968dedc6c84128c3b3d8ed8f 452b7950bea71a392994ce04f0f19f264577915e 4a226688abfa0c8faa63670095c85f74f5fd31fa 5cebd790beedd3281133b0d6e42c5cec16085740 631148331316c730273d4a1d8c59c1e0a8831f6c 6d7a5c073e3e2e369808f9aa3448ac022d6e21f0 807c95a79bced169c7c067f784ee8544effedcf7 a0d3f175c8296fbcc2194d9b662b28c9f0b34af2 ace864398fae9b2915d8fc583063260452e139b5 ae5bc7ba2fb397a88ab41c61c61461978e7978e1 b4e3907e14178e5451d359decd704553e4497fa2 b9910ca5406e8aa5a269a87459ee17837813e0cb c3d070b3816236744c441c2e4b71e9b55c89003e d81499b0393f2af3ebd0a11c4038e5b31b261692 e0575082f0e32005081cbbd45b26da099fe83061 ea2bf5822e0046d414db5296ce02ec4f53206b12 f3d0c6e4de021ea528c7c9f08afa2f4962cf44da f7b01940112e649642dac54f0021c6cde2681d91
+Build-Ids: 0c17f600d5843d9f0f25a53cf90742be9c809bc5 115cb88c9d7d25d48b82a07a097054bc6f1e16b7 2e9a735f30e9032eb73e22606dd362467afe0766 322ad75fb66c8946e157917ad6c7c5345767d9f1 4295e228d004dda129d1c7409e1c03febeb77b0c 49ab187850893db5e1104f2f326330678cd3cb6c 4e78a637a036af433722d262c8903ef2a51b7a45 5099ea2a71b25a1f9c0addd18f558ae56920866c 7f51c82e5dd79450be71819ba621d92becdc4a1d 8eca5f5e1fc4f6af9519e2f5ccb134c5420b2335 8f9f9b8b082f2d1cd5ffd7979fe55fdac3c02c1e 9331b31a3b7f62e40e41acd8eb343aa9a4cd66e7 a512a48d964c41b9dda6c67b306532882b674380 aaae86ce4938b50d927615a24922dd9c316482a1 b1a6aa9b35adf3d0221734d733bbef79daf9918a b7ef16b8131d970483c3d01099114af685ac6080 bc74687b7b7e74267555cea8f48b46d682cd53b7 c78c739662a87859b2556bfaff07eafdd8726a1f d7ce62e9ce1143b098e4c533ac6745ea8e738000 fc0dec71c0225faa2035b0c2a1061917723c5f90
 
 Package: ros-humble-pangolin
 Architecture: amd64
-Version: 0.8-57-gd4844946-2023.12.10.11.43
+Version: 0.8-59-g57d84249-2023.12.25.12.57
 Priority: optional
 Section: misc
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
 Installed-Size: 5090
 Depends: libc6 (>= 2.34), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglx0, libopengl0, libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), libx11-6, libglew-dev, python3-dev
-Filename: ./ros-humble-pangolin_0.8-57-gd4844946-2023.12.10.11.43_amd64.deb
-Size: 1286564
-MD5sum: 94cab5f5b7cb64bad1f2a158b4b378e8
-SHA1: 68016f3c8c82b5de861ba43d6537b7a0654c330f
-SHA256: c8e6c744881eb693d0c4c32da9158b6ffc72368a2fb738bd966ea9e5eead3b52
-SHA512: 589d4687bb148fa8c39aa20d557c11226f4cdee0a7fd45ceb27df80386d8a1c44f9a481e53483820461b8a7933ea8bed2c35ddca2fe47feeca0f58540d0a4664
+Filename: ./ros-humble-pangolin_0.8-59-g57d84249-2023.12.25.12.57_amd64.deb
+Size: 1286652
+MD5sum: a9a3bd98c7fb2e876a183c5a2cce8039
+SHA1: 0d85df79a87e45d2a922643d58a4e98172a5e421
+SHA256: 6408161e1a04e10da158b036702803778b541a7fae0511850702dfc84f66c6c4
+SHA512: 03b4ccde03dfa5932e8b60a05a43b2637b6a7d4c12ef92d290041789382a9b23dcb335854ca36ad32d81b72205e7c0eec9e47910a0c468ef55e1dd70f5536625
 Description: Pangolin is a set of lightweight and portable utility libraries for prototyping 3D, numeric or video based programs and algorithms.
+
+Package: ros-humble-super-point-inference-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.12.25.13.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-super-point-inference
+Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
+Installed-Size: 2937
+Depends: ros-humble-super-point-inference (= 0-2023.12.25.13.03)
+Filename: ./ros-humble-super-point-inference-dbgsym_0-2023.12.25.13.03_amd64.ddeb
+Size: 2911086
+MD5sum: a0d2f4f7cf7d500bd7c02a8ea8161eda
+SHA1: f2ca9a99ce1de7b2ef59561bb223b69e44b66e3d
+SHA256: 30d54b575ddb1d49f23cccc4a54bb573c59907884ae25ea6b915856056974a90
+SHA512: ac268f88a92075e9510d198d65269cb1cb8b5c86a8ddd50297f8eefedd01c4b0186f298e02b8c71c00ae7477a3d6cba1e25241bc9aed719451f2d958b2e97d22
+Description: debug symbols for ros-humble-super-point-inference
+Build-Ids: 13e4365f45f7d0b6305cbd92a152153cf19846c9 8c40f35f2a971cddef2a58b976db66750bc3dcd4
+
+Package: ros-humble-super-point-inference
+Architecture: amd64
+Version: 0-2023.12.25.13.03
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
+Installed-Size: 5378
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-features2d4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libeigen3-dev, libopencv-dev, ros-humble-libtorch
+Filename: ./ros-humble-super-point-inference_0-2023.12.25.13.03_amd64.deb
+Size: 5040498
+MD5sum: a850277cb3dac5e0e4e75bfb7006c960
+SHA1: 8b091a6175dfb2345d9b7f134412a4a47f5768fc
+SHA256: 47e1b35610462d11810c1e79b54a69ae5da3e87fb1929e7646036e35ff39cfb0
+SHA512: 0632a7ee43a848aa6df72a162113390292216b65739f7faf96645684d0063972897b976b9b11e13435f43eba20a796a74615dd5fc5cb9580d688c1702c5b3df7
+Description: SuperPoint inference
 

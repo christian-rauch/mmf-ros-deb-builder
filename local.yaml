@@ -1,6 +1,12 @@
 densecrf:
   ubuntu:
   - ros-humble-densecrf
+libtorch:
+  ubuntu:
+  - ros-humble-libtorch
 pangolin:
   ubuntu:
   - ros-humble-pangolin
+super_point_inference:
+  ubuntu:
+  - ros-humble-super-point-inference
