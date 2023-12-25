@@ -11,10 +11,10 @@ repositories:
     type: git
     url: https://github.com/christian-rauch/densecrf.git
     version: master
-  # src/gSLICr:
-  #   type: git
-  #   url: https://github.com/christian-rauch/gSLICr.git
-  #   version: colcon
+  src/gSLICr:
+    type: git
+    url: https://github.com/christian-rauch/gSLICr.git
+    version: colcon
   # src/super_point_inference:
   #   type: git
   #   url: https://github.com/christian-rauch/super_point_inference.git
