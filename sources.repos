@@ -1,8 +1,8 @@
 repositories:
   src/Pangolin:
     type: git
-    url: https://github.com/stevenlovegrove/Pangolin.git
-    version: 57d842493d5c3b1472837e4ec639f0c137b06e39
+    url: https://github.com/christian-rauch/Pangolin.git
+    version: 20123188961a32a46756ca2f78ddc8fc455ec971
   src/densecrf:
     type: git
     url: https://github.com/christian-rauch/densecrf.git
