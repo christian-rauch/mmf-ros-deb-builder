@@ -45,3 +45,4 @@ jobs:
           DEB_DISTRO: jammy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
+          ROSDEP_SOURCE: "yaml https://raw.githubusercontent.com/christianrauch/rosdistro/wayland/rosdep/base.yaml"
