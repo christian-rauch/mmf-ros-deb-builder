@@ -7,11 +7,3 @@ repositories:
     type: git
     url: https://github.com/christian-rauch/densecrf.git
     version: 593a10d24fc1785b6581f53848ee9b8f00876865
-  src/libtorch-colcon:
-    type: git
-    url: https://github.com/christianrauch/libtorch-colcon.git
-    version: 2c71f8ce2dd423a5bfabb58a79c101ed928a669b
-  src/super_point_inference:
-    type: git
-    url: https://github.com/christian-rauch/super_point_inference_v2.git
-    version: a3f433f779542c9e8731bc2705cefbf2f12ad1cc
