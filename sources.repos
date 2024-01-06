@@ -3,7 +3,3 @@ repositories:
     type: git
     url: https://github.com/christian-rauch/Pangolin.git
     version: 20123188961a32a46756ca2f78ddc8fc455ec971
-  src/densecrf:
-    type: git
-    url: https://github.com/christian-rauch/densecrf.git
-    version: 593a10d24fc1785b6581f53848ee9b8f00876865

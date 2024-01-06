@@ -1,72 +1,36 @@
-Package: ros-humble-densecrf-dbgsym
-Package-Type: ddeb
-Architecture: amd64
-Version: 0-2024.01.06.11.38
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: ros-humble-densecrf
-Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
-Installed-Size: 2555
-Depends: ros-humble-densecrf (= 0-2024.01.06.11.38)
-Filename: ./ros-humble-densecrf-dbgsym_0-2024.01.06.11.38_amd64.ddeb
-Size: 2538026
-MD5sum: a986b8fae61a60bf0bd37f78a082992d
-SHA1: 83b4a12196261d3ebd5ac061abe39e3df88ff657
-SHA256: 91c852c57f8555689980955f98d9c1fadcf1584388ed0d1f1d058b4ccd853ef0
-SHA512: 973012c2726d686eedfb866feaebd3b2dde1edfdfbfeb2a9581998d8f50129be6e3dd685168e825b508e2a961825593ce6288fdba1d79c58aa5564f242bfabea
-Description: debug symbols for ros-humble-densecrf
-Build-Ids: 14a7273714999dd95ddf1c158b904a73c8783818 4f94b736e09eb9ae93c1c0b76dfd0fc822442942
-
-Package: ros-humble-densecrf
-Architecture: amd64
-Version: 0-2024.01.06.11.38
-Priority: optional
-Section: misc
-Maintainer: Christian Rauch <Christian.Rauch@ed.ac.uk>
-Installed-Size: 216
-Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5), libeigen3-dev
-Filename: ./ros-humble-densecrf_0-2024.01.06.11.38_amd64.deb
-Size: 73288
-MD5sum: bfa98597a0a6e004128a7e718eb8c179
-SHA1: 239eef787fa15d21d4c934a04f6cc6bf465ae1f5
-SHA256: 12667decb5855b1fcccfd018284e2da0bfa82e6e56c9b88a7bd31cc230cdbded
-SHA512: 686ae9d928ecee23f153dfc7ab7f030c6aabe0ec6fd600b0b0cea30e1c6195571ea1d230acff7fcde750f75899adb0a0238637e084ce6da891a58afac33df544
-Description: The densecrf package
-
 Package: ros-humble-pangolin-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.5-708-g20123188-2024.01.06.11.38
+Version: 0.5-708-g20123188-2024.01.06.12.08
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-pangolin
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
 Installed-Size: 32071
-Depends: ros-humble-pangolin (= 0.5-708-g20123188-2024.01.06.11.38)
-Filename: ./ros-humble-pangolin-dbgsym_0.5-708-g20123188-2024.01.06.11.38_amd64.ddeb
-Size: 30446402
-MD5sum: e52ae4aaf2f8e841b7a36f31a50e6b03
-SHA1: d3390a99edad2d5a049e9bc954e49aacd3a93ca4
-SHA256: 268309ea53d92351ed58a4894d57a8c9cdd8af5398241b25847b3fc82ff35389
-SHA512: 1fde4d16b2cf61a2304df6cf05ce74d9a43525fa441297a9f1e6f08a8caae3a7defe1af55d83c0b2ee24c2f8f6e48eaa5ad0e2a4e0b1945e5f3a581afedfd376
+Depends: ros-humble-pangolin (= 0.5-708-g20123188-2024.01.06.12.08)
+Filename: ./ros-humble-pangolin-dbgsym_0.5-708-g20123188-2024.01.06.12.08_amd64.ddeb
+Size: 30446088
+MD5sum: dd5c7f94550c7804874485314c7bdb66
+SHA1: 7c603ce5d2b0a25e347b6abd31ef241af0aa7cd1
+SHA256: 44e83a475176468655faffe81aeb57ba881a3a562f2d39a0994f5c391522b030
+SHA512: 86c1eb71740a2d1f8ba3bdcd66f752d911941e2cc3f8155aefebcbc6d80388a4526a9263f0518cd527d69693f57b81a1bbe3ede897c8bfc4527afd0ca6f4f1e0
 Description: debug symbols for ros-humble-pangolin
-Build-Ids: 114a74cab7578c43b7fb70eb63b012a0e478e62f 169207368779c0ecce13459e51a769ecc038b212 18291fbe4e5c500e7863e5da60714cf345ca0acf 1876fff5d18631b633914b8489c11a808febe3c0 2c6c6b1f2281cbc243bdf412e99b7cc6bcc5f860 345fec6efccf9e58e731ee38fb0517fb8a243656 3e1b7d8912a876b2c503d95f33dd297c6b9f0589 4c6ce8dcaf63274d6455688e86cecf2a134a019e 5439cf65b3926c9be41de95c8cd5b491434e29c1 6eaa887a36c628b2c8352471ed9ab0fe45285090 7250d40fc645ccbaca8eec82c8fc6b325e5ae476 88db25172ae767daa3bb2a2355144fc349d697e9 9baf84147fce7e1f4e1ad2a07f756e1e1bc0da9b bd8fbeac0ce964b388471718376b97f22dacf03f befd81b2ed45754932c5e1ff485ea1328c70c408 d5e02790187033c858345cf9f5c862f253d83c44 d9e9330a3a21ae664a691da9686680788f669dae e518d4d77dcdf07b973cc634396ca5d5b5671534 fb9b7df826003c068df443f9be75bdaf157af774 fee9fc09366cc581cc57623a5427f560a039f8df
+Build-Ids: 021eec807e19244d441ab42557b57dca7f389614 210166782f4f3b23b17cb728d9d98f589d500694 227470fbea805056c4e4e9f709c2acadb47c3072 3b600f141cdd1254a8649a9bda3558015601c8ae 45d2a201a35297a0eae683e4b53c23fadb30086d 5102976e957ab752a8993b77bde6ae014bef3e67 520cd2598663bff8772519beba1f105ad0d3cb63 526b698fcb3e90083d91ad85b6be1285c76e2c61 591320ce0a3c84041c82746fd5c4430e649db413 5f0276144b80f719c819c7de489a2a8eefe2da7e 613258a65f57406987ebcdd9b1e88fb286967b42 6ec1c062ed7fb0b0479bd704d7226b1eb09e4ae8 8859051253002d7561fe8d26439cb520c8fafa1d 8e53ff07ea0dacfc9557f1a49c7c2edd77902b95 979c500be52fbdc91f0e2b3eddf71b9e9907a4b9 bbf4d7df9732ed1510d30c4eded0592f8f4c52b2 cda56ac0d7d27a330d136e54655eff999b6abd07 ddb1626d8b1d1c96c914b6b45f1b1c48386ac11a f3d7749bd436bf2b3e7e559c25db16184dd06d7f ff9a8a37a3afdba6abb82e90a3c2ad712ed58f62
 
 Package: ros-humble-pangolin
 Architecture: amd64
-Version: 0.5-708-g20123188-2024.01.06.11.38
+Version: 0.5-708-g20123188-2024.01.06.12.08
 Priority: optional
 Section: misc
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
 Installed-Size: 5107
 Depends: libc6 (>= 2.34), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglx0, libjpeg8 (>= 8c), libopengl0, libpng16-16 (>= 1.6.2-1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), libx11-6, libglew-dev, libpng-dev, libturbojpeg0-dev, libxkbcommon-dev, python3-dev
-Filename: ./ros-humble-pangolin_0.5-708-g20123188-2024.01.06.11.38_amd64.deb
-Size: 1292670
-MD5sum: bd013b126d0d0bb60f08047e96e0dd15
-SHA1: a164dd44c12fe7f5b57559f473883f9ea6246049
-SHA256: cca2bf5b426beca24f83db338df80b54993321fb9c24a7a42d384c26ba05d135
-SHA512: 74eddea799f6a3dac5a49f028464fdac7d22597f20694f7224826bbae570a3e17147430ba6b1c5df8f6952cb0daf74541c352fc1b46a8ba49dc19da9b4c69306
+Filename: ./ros-humble-pangolin_0.5-708-g20123188-2024.01.06.12.08_amd64.deb
+Size: 1292516
+MD5sum: 734a8a5de2157a41ba11a946e1bf094f
+SHA1: a23ef8a9591c1c3970b520c5daa61cf67b79b44d
+SHA256: 6b7bd97213787a53cbd85ed8c48677896a707f1698252eef4ef942536bcf505c
+SHA512: bd49d70b4fc9232642b2d57df6a83a423a25da6dfd62a82b57049b19d63ad199989512fcd2d64e60bd35fbe1ba5078a019f98a8684aa94584cc879969a606aea
 Description: Pangolin is a set of lightweight and portable utility libraries for prototyping 3D, numeric or video based programs and algorithms.
 
