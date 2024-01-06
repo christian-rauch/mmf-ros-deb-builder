@@ -2,4 +2,4 @@ repositories:
   src/Pangolin:
     type: git
     url: https://github.com/christian-rauch/Pangolin.git
-    version: 20123188961a32a46756ca2f78ddc8fc455ec971
+    version: 297b48343cb4b952433bf4b380297e60be8643ab
