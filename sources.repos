@@ -6,7 +6,7 @@ repositories:
   src/Pangolin:
     type: git
     url: https://github.com/christian-rauch/Pangolin.git
-    version: fix_wayland_subsurface
+    version: wayland-deps
   # src/densecrf:
   #   type: git
   #   url: https://github.com/christian-rauch/densecrf.git
