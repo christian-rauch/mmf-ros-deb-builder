@@ -1,5 +1,5 @@
 repositories:
   src/Pangolin:
     type: git
-    url: https://github.com/christian-rauch/Pangolin.git
-    version: x.1
+    url: https://github.com/stevenlovegrove/Pangolin.git
+    version: a353b41ba0e4cbed6ad9ca7f10a8345d92633aa5
