@@ -25,16 +25,9 @@ jobs:
       - run: |
           apt update
           apt install -y sudo
-          sudo apt install -y cmake
-          cmake --version
+          # sudo apt install -y cmake
+          # cmake --version
           sudo apt install -y curl lsb-release software-properties-common
-      #     sudo apt install -y nvidia-cuda-toolkit python3-typing-extensions
-      #     sudo apt install -y g++-10
-
-      # - name: Pangolin Wayland dependencies
-      #   run: |
-      #     apt update
-      #     apt install -y libwayland-dev libxkbcommon-dev wayland-protocols
 
       - run: |
           usermod --add-subuids 100000-165535 --add-subgids 100000-165535 $(whoami)
