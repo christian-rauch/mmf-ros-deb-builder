@@ -1,36 +1,36 @@
 Package: ros-humble-pangolin-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8-81-ga353b41b-2024.01.13.22.29
+Version: 0.9-2024.01.14.11.13
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-pangolin
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
 Installed-Size: 32340
-Depends: ros-humble-pangolin (= 0.8-81-ga353b41b-2024.01.13.22.29)
-Filename: ./ros-humble-pangolin-dbgsym_0.8-81-ga353b41b-2024.01.13.22.29_amd64.ddeb
-Size: 30700456
-MD5sum: 219386ecf102c63dfa6050aa19a3f862
-SHA1: 3e10b482fff046f78b8ad65237d0b7278588a28d
-SHA256: 82e9b6da7a5ca2fb7fae8998c27a0f1ce45b527640476fdf14b9d5e36deffa74
-SHA512: bb53ad4106f6f81699f8ab9e64a5d577c5a8d498422cf0018eff9c24776ed5224bd179eac367a21e8801064cec0edc318d82b1cc4deabb1104a96dd29e4c87e4
+Depends: ros-humble-pangolin (= 0.9-2024.01.14.11.13)
+Filename: ./ros-humble-pangolin-dbgsym_0.9-2024.01.14.11.13_amd64.ddeb
+Size: 30699352
+MD5sum: 798d975eb29206a3b25ea1be00da5ef9
+SHA1: 1c7e1467b72afd1da6429690e1665ab66d7d147f
+SHA256: 2430cc0922860fd661a1cda15c4db46f9ca7a013989c0e2d95f63b38d1eba1e9
+SHA512: 56b1bb837ef4bce18e821b4684b55cd92962084affabd485ba48d854f11a6088d6870f014d3fdfdb4b2c12f4a48decb08bfaa247ff86c125fd27da32f18665eb
 Description: debug symbols for ros-humble-pangolin
-Build-Ids: 03a6b180eea43d429e1a91035cce1758df7c4660 062838c9be566af82852988b25aae133c8eedbca 08ef0b218a7b2c234d8a2d130f136b92ac7b16e6 227923b3bee740f9b44c00214962424971a2a09a 29080e5b3c7496cae8e0a1b74e0e405cf9ac48af 3a7a727c18a9d862e960fccffb5f401457532fc1 636e0054b641c320323ca74057e54b5ceea28d98 662efb6428645774fada0b2d33902679e332b334 79bd86c70e441ce5876c0e0f13bd4977199582e8 82e7154ed46fe88280b7216b25f90205aedc9781 8a379348164bb5edf064c8b33e5e45bcd5d3cb00 8c684539f46cc39d384a6747e607173b3ef3236e a261264690f9067e176f0c8057cc937e42faa622 ac82a6152bfd7852e526d249d8174cd1df9034eb c959fe4f845ad9ae4c3937c94e7ca593ff3f04c0 dacbd67d6aee4d3b11b60c7ad18d3d771b9361c3 e12a1aae6972ba0c1c61e62b8b8ee294871e5677 e3dcef358d3b64efa14af60f8eb2471b4ddabc29 f1416f049749f652449cb77c9f3a04dfc92ac294 fcd3c37e0a9d014c4043b147d3f1592b75f9f57c
+Build-Ids: 0d9d5359d49ee2bf6f6f0514048c051bf6ec4a9d 167bdbe3c2ec42c09532cb889275e74f4acf75d7 18d58e1846ef3e007d52a015890272f4c00dcc59 1aecb116e12ff92f9c9e531b8e55e9abe6f537bd 24a6d1154578a69a4bebe7f67f7c86d79de10449 25bec4d7c5d1e6a18712acd6b2588e45f21c3692 3a7802ab17e870ebdb4a046f6f255f5716e0e990 4689c4f202e2c61a1cf23ea0201c47894a22fbf8 4c5a7e6c7f97783f8cc46f46a95abd6f016b8efa 4f6f86c96740ddf1a4ad41a06c6537faf5c58f64 661e874bb6485be83e737d96f435260f7befbf2d 7a8948e35cacbf67a370ddbb3b52c63f453ae296 974afa4589bb4bdb9fd9d0f12886f2480d728eb8 a816ed0768e37f529c68be908e0e04edc30f04a5 aadeefbcf81a06d8ee35dad06cf2df30a59e35fc b3a3ffb8a216994d1a91741f0d881d15811987a7 b50c5bdac0717fd87b41654e12af5b2369e72c39 cb32e2c5c9801ab557216b0d2e0515a462e0bee6 e8890238ee49568e088866a15ef3a466be327f9d f6a99b8997b959802068d392df8120f6e35ec16f
 
 Package: ros-humble-pangolin
 Architecture: amd64
-Version: 0.8-81-ga353b41b-2024.01.13.22.29
+Version: 0.9-2024.01.14.11.13
 Priority: optional
 Section: misc
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
 Installed-Size: 5139
 Depends: libc6 (>= 2.34), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglx0, libjpeg8 (>= 8c), libopengl0, libpng16-16 (>= 1.6.2-1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwayland-egl1 (>= 1.15.0), libx11-6, libxkbcommon0 (>= 0.5.0), libglew-dev, libpng-dev, libturbojpeg0-dev, libxkbcommon-dev, python3-dev
-Filename: ./ros-humble-pangolin_0.8-81-ga353b41b-2024.01.13.22.29_amd64.deb
-Size: 1306016
-MD5sum: 68028aaddefe8374ca34b04daafcd169
-SHA1: 17c9566bb0c20b55f0f1f5b178c99dd612cce29f
-SHA256: a57c53366305af26a8e7db0e562c9f60910872137b9bb04d35116c0be8328b7d
-SHA512: 4895ffd14b5042c9459c8e36122215317ca4507e0d8c5bab28344f2ec250c726b207a5da6d606ec55f710aa963c5aa60d8488f42fff143f88031793c05a85a75
+Filename: ./ros-humble-pangolin_0.9-2024.01.14.11.13_amd64.deb
+Size: 1306014
+MD5sum: 0644ba63400e5cfd4585ef73ba537377
+SHA1: 9b4c06ff9161a8c174c4323b053f81c52b48da47
+SHA256: 4bb70927c4eda5552419f88b9a8d8fd715f5ed597e50f469400081ebd9599dfc
+SHA512: 15b1766083b89217a2c9fd3afe860829e5eba161b8e66b6dc28bc436b2b0e189ad8d330771b3c1bacce7ef8f9964280aba9633f0019edffe64231947a457d8d8
 Description: Pangolin is a set of lightweight and portable utility libraries for prototyping 3D, numeric or video based programs and algorithms.
 

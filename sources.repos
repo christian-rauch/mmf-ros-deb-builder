@@ -2,4 +2,4 @@ repositories:
   src/Pangolin:
     type: git
     url: https://github.com/stevenlovegrove/Pangolin.git
-    version: a353b41ba0e4cbed6ad9ca7f10a8345d92633aa5
+    version: v0.9
