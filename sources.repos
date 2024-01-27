@@ -31,3 +31,15 @@ repositories:
   #   type: git
   #   url: https://github.com/christianrauch/libtorch-colcon.git
   #   version: main
+  src/apriltag:
+    type: git
+    url: https://github.com/christian-rauch/apriltag.git
+    version: test_python
+  src/apriltag_msgs:
+    type: git
+    url: https://github.com/christianrauch/apriltag_msgs.git
+    version: master
+  src/apriltag_ros:
+    type: git
+    url: https://github.com/christianrauch/apriltag_ros.git
+    version: master
