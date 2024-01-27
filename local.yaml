@@ -1,3 +1,12 @@
+apriltag:
+  ubuntu:
+  - ros-humble-apriltag
+apriltag_msgs:
+  ubuntu:
+  - ros-humble-apriltag-msgs
+apriltag_ros:
+  ubuntu:
+  - ros-humble-apriltag-ros
 pangolin:
   ubuntu:
   - ros-humble-pangolin

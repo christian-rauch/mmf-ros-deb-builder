@@ -1,36 +1,145 @@
+Package: ros-humble-apriltag-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.01.27.10.51
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-apriltag
+Maintainer: Max Krogius <mkrogius@umich.edu>
+Installed-Size: 492
+Depends: ros-humble-apriltag (= 0-2024.01.27.10.51)
+Filename: ./ros-humble-apriltag-dbgsym_0-2024.01.27.10.51_amd64.ddeb
+Size: 424386
+MD5sum: 3683eb4dab6ef273bc90c2a63ffa754d
+SHA1: e90f2ba0bf6933abc0be2705f78fdccdc8d79485
+SHA256: ffaaaa463b15526adb7db028218792cf5832dbeebc2e2cddb8a38738b7c66a8f
+SHA512: c0914003545d6813925f9eaf5487b2b1bf8ce79739c13b79d02e2efc560de1741e03b2e4b6bc39afa014cf19b002ca718fae05c4de6a8582fb422c84fd9123f4
+Description: debug symbols for ros-humble-apriltag
+Build-Ids: 65473bfc071f09c9c54bfc3a0ae34fac816f2c36 bc9eeef548815d5d727c26c3f70efa5691763d1b e263895beac111e40fbbcc9d97b2cb393e048098
+
+Package: ros-humble-apriltag-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.0.1-2024.01.27.10.52
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-apriltag-msgs
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 488
+Depends: ros-humble-apriltag-msgs (= 2.0.1-2024.01.27.10.52)
+Filename: ./ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.27.10.52_amd64.ddeb
+Size: 334540
+MD5sum: 843a5b7044ab0b774051a27295eb3a8c
+SHA1: acb0af2c147f2d24a2695b293a7f761983dea128
+SHA256: 35122f4642a10c9fd626f5c91e53d49069f13a4c127c7dcfe8cc4dfb02ee2ab2
+SHA512: 3a7d6e219cce26ba359045db7452e9d21c12b99229dbc5a6f991950c9e9a8d85eb35627dfd5785f97a212cff403e91adf4bdd5890c977fce653aad20d1b89d68
+Description: debug symbols for ros-humble-apriltag-msgs
+Build-Ids: 0423bcc52d695dca7280c1b2ddbe5c7cbf995efc 135b9bbde59e1629fdd737b88616e21ed6c9edb5 1d245f1bc9a7f1cf83dbb6944d05751123afe5c8 42c2e87f322007d85e5719f3dc78c79a2da0a0eb 56706eec5357307b4ebbddd1aafc603d011e6590 5fd8e1b26f777b08ee900b9991cbeea3e06e00cc a7563a45c7b14ba751ca24d6a158fdd0f050fe78 b603e14ca9ab76a94be07f52a05c43a04b690359 baee635463d7ddd052105ace6d444d60f44017a9 c29438505f636d702f78d7f2d37037b574b48d74 c4372facd92769e07e0c26fa5c0d355d5be13b40 e6ce3a70a257f1a09c931ca5e48f36d170620363
+
+Package: ros-humble-apriltag-msgs
+Architecture: amd64
+Version: 2.0.1-2024.01.27.10.52
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 665
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
+Filename: ./ros-humble-apriltag-msgs_2.0.1-2024.01.27.10.52_amd64.deb
+Size: 62142
+MD5sum: 332f519229436fa849c9000281a7a497
+SHA1: db9fa12d6dff3520fea7e7cbae79523abeb24b41
+SHA256: 2f78838b3af16afdf3d2d5d362ceedcb59bfb8553a8ce277ccf96467439100e3
+SHA512: a42e8c2f303cad414c04e986a221679661f4178020351d21823864f286dc5d5cbd2086450629d5733ded84507be856e7f4f501cfc210f0db130218c3ab619af1
+Description: AprilTag message definitions
+
+Package: ros-humble-apriltag-ros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 3.1.2-7-g21d1849-2024.01.27.10.52
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-apriltag-ros
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 1706
+Depends: ros-humble-apriltag-ros (= 3.1.2-7-g21d1849-2024.01.27.10.52)
+Filename: ./ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.27.10.52_amd64.ddeb
+Size: 1604794
+MD5sum: d7f0fe213c97988b2e060ee490e50cb3
+SHA1: a38303e0f9632e3d611b6cd82209c3e7b2dd036d
+SHA256: ae57753819a6a039ac365f951ed6a8ad2c93cb9d5c33b1268cfbec2fce967fc0
+SHA512: f47282e215178a5f7ccae9ad8b8a6a43b5dcc99070bbcad6b60223401b222c14a88e3ab76a6260bed8f43193b96c27460a47d856428ce3f6bfb72e8a63dcf28d
+Description: debug symbols for ros-humble-apriltag-ros
+Build-Ids: 4ccae2a85b90e8198fed11c9003c846c7518f217 f0c469b085841b9e1245224d60ad78c4fb7d761b
+
+Package: ros-humble-apriltag-ros
+Architecture: amd64
+Version: 3.1.2-7-g21d1849-2024.01.27.10.52
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 314
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-calib3d4.5d (>= 4.5.4+dfsg), libopencv-core4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-humble-apriltag, ros-humble-apriltag-msgs, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.27.10.52_amd64.deb
+Size: 88096
+MD5sum: 412dd7ac6086f817855077f0cb180265
+SHA1: 2c8e143aeb7a2e9b3359c73695ed0ffa1a4d0984
+SHA256: 86075e056c98a2273e9a9e79bc6984a1a2d06dea45abfe71f7acddc872b4decd
+SHA512: 8acc8d78559783e726e3baaedfe79b89e4e21d331bbb9bee8a4faf78f611884888149dd320f6ebb16516b0997eb8bc1456b5a98f17dd61eddabe9d7943b7cb43
+Description: AprilTag detection node
+
+Package: ros-humble-apriltag
+Architecture: amd64
+Version: 0-2024.01.27.10.51
+Priority: optional
+Section: misc
+Maintainer: Max Krogius <mkrogius@umich.edu>
+Installed-Size: 1778
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-videoio4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 5.2)
+Filename: ./ros-humble-apriltag_0-2024.01.27.10.51_amd64.deb
+Size: 1165488
+MD5sum: d94266d5fff698e165006b0ca4ab7e7d
+SHA1: aa6ca870be9b06d67ff4fd975aff5fdc312c5b18
+SHA256: ae35328a74f9019b7287e0bb0f3a6ea7b647c9362acf73ece4264bcdc2d16908
+SHA512: 6813a85fa73f70a987ea77c1b857b667837601bf3c55af3b0fec10de6df0d724c47cc58bb0bcf0eec1b378136c8a31328597e4cf90134e00ca98c6ce963ec75a
+Homepage: https://april.eecs.umich.edu/software/apriltag.html
+Description: AprilTag detector library
+
 Package: ros-humble-pangolin-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.9-2024.01.14.11.13
+Version: 0.9.1-11-g099f298d-2024.01.27.10.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-pangolin
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
-Installed-Size: 32340
-Depends: ros-humble-pangolin (= 0.9-2024.01.14.11.13)
-Filename: ./ros-humble-pangolin-dbgsym_0.9-2024.01.14.11.13_amd64.ddeb
-Size: 30699352
-MD5sum: 798d975eb29206a3b25ea1be00da5ef9
-SHA1: 1c7e1467b72afd1da6429690e1665ab66d7d147f
-SHA256: 2430cc0922860fd661a1cda15c4db46f9ca7a013989c0e2d95f63b38d1eba1e9
-SHA512: 56b1bb837ef4bce18e821b4684b55cd92962084affabd485ba48d854f11a6088d6870f014d3fdfdb4b2c12f4a48decb08bfaa247ff86c125fd27da32f18665eb
+Installed-Size: 32339
+Depends: ros-humble-pangolin (= 0.9.1-11-g099f298d-2024.01.27.10.54)
+Filename: ./ros-humble-pangolin-dbgsym_0.9.1-11-g099f298d-2024.01.27.10.54_amd64.ddeb
+Size: 30702806
+MD5sum: 0bba5cd4e6dc87b0c3200049a069f420
+SHA1: e18bd81d18da3ebbc762ed338d0cadf693f00f72
+SHA256: 4e1b723722f120501642849ee35097c850e42de84677fe8d9745afa21e108d70
+SHA512: 8c99fb021c5b834cc39c5321c7e642b6db45e86225175e01806676163e4a030d5be88391dfedbcbef8545cd4550d2bd4e3f40907ae68b1253ce45a20e0e0ed20
 Description: debug symbols for ros-humble-pangolin
-Build-Ids: 0d9d5359d49ee2bf6f6f0514048c051bf6ec4a9d 167bdbe3c2ec42c09532cb889275e74f4acf75d7 18d58e1846ef3e007d52a015890272f4c00dcc59 1aecb116e12ff92f9c9e531b8e55e9abe6f537bd 24a6d1154578a69a4bebe7f67f7c86d79de10449 25bec4d7c5d1e6a18712acd6b2588e45f21c3692 3a7802ab17e870ebdb4a046f6f255f5716e0e990 4689c4f202e2c61a1cf23ea0201c47894a22fbf8 4c5a7e6c7f97783f8cc46f46a95abd6f016b8efa 4f6f86c96740ddf1a4ad41a06c6537faf5c58f64 661e874bb6485be83e737d96f435260f7befbf2d 7a8948e35cacbf67a370ddbb3b52c63f453ae296 974afa4589bb4bdb9fd9d0f12886f2480d728eb8 a816ed0768e37f529c68be908e0e04edc30f04a5 aadeefbcf81a06d8ee35dad06cf2df30a59e35fc b3a3ffb8a216994d1a91741f0d881d15811987a7 b50c5bdac0717fd87b41654e12af5b2369e72c39 cb32e2c5c9801ab557216b0d2e0515a462e0bee6 e8890238ee49568e088866a15ef3a466be327f9d f6a99b8997b959802068d392df8120f6e35ec16f
+Build-Ids: 20d542b4f781b0db3dbcced01c955c0682e5fd1b 2d615cbfc94ab0490224503794d997b76c622fcd 35dd0bf1c256e35ae0e3666ae7bfdb764cd02004 3d3d2e8b200b49566db130eadbfc2f90bbbf06da 3e2e28ce0d6183e86e9cb00ca2d1ffd35bf86f5c 3eeadec835c9dd199c4b5153ee3ce6c416915b98 58c08944ee0f71f5a9c572409f05d6419adb1099 5d46813d348998ea9db7d920304aa8afff823d90 5e09ade7af01390b6275a94c60b819e101fafa63 699f630fcebd5d2e5b927bcfd522513e1f1e6002 7cc3882ec914de9dd632f3572880cef23046a471 7de64b6fe5ddecd55b1d8611f25687db9b65a4c1 80879161bc5b3b96d3dd487e5356c79147a7b177 811baccf19cf25ed5582b335c871dc687f9535f9 8a141a3770edcfd99bf1d73387eda413a6edba93 d6647a896e2af3d0e890f102844a78e1064f1e5e d798f7b49e4cc315466cfd4fb3da36abd7246f1a dae197cd130126d89a180735432ccb88459ac41e de2c2b42ed10ee243af70bff416f8a07ff17c579 f7f8e4a4e8c76cd1dd2e72272a092cbe86c6b3de
 
 Package: ros-humble-pangolin
 Architecture: amd64
-Version: 0.9-2024.01.14.11.13
+Version: 0.9.1-11-g099f298d-2024.01.27.10.54
 Priority: optional
 Section: misc
 Maintainer: Steven Lovegrove <stevenlovegrove@gmail.com>
 Installed-Size: 5139
 Depends: libc6 (>= 2.34), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4), libglx0, libjpeg8 (>= 8c), libopengl0, libpng16-16 (>= 1.6.2-1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwayland-egl1 (>= 1.15.0), libx11-6, libxkbcommon0 (>= 0.5.0), libglew-dev, libpng-dev, libturbojpeg0-dev, libxkbcommon-dev, python3-dev
-Filename: ./ros-humble-pangolin_0.9-2024.01.14.11.13_amd64.deb
-Size: 1306014
-MD5sum: 0644ba63400e5cfd4585ef73ba537377
-SHA1: 9b4c06ff9161a8c174c4323b053f81c52b48da47
-SHA256: 4bb70927c4eda5552419f88b9a8d8fd715f5ed597e50f469400081ebd9599dfc
-SHA512: 15b1766083b89217a2c9fd3afe860829e5eba161b8e66b6dc28bc436b2b0e189ad8d330771b3c1bacce7ef8f9964280aba9633f0019edffe64231947a457d8d8
+Filename: ./ros-humble-pangolin_0.9.1-11-g099f298d-2024.01.27.10.54_amd64.deb
+Size: 1306008
+MD5sum: 9b3cd69b7825dfcf77977a3bb104180e
+SHA1: 530d1f3ba79ace81405804a5f140ab3d3a03800d
+SHA256: 114cc15e5fb866568da550644b56cfd03131a62e2b873d4febf656d788e1daa7
+SHA512: 6cd17f51e76e76a159684b011e08db58e98eed8d0e6315f6f1702603a833917ae133e3091a9f2d9ef7bdf39128b9e59a150b446fed4e01e46b6568240e836316
 Description: Pangolin is a set of lightweight and portable utility libraries for prototyping 3D, numeric or video based programs and algorithms.
 

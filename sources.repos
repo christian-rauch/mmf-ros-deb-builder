@@ -2,4 +2,16 @@ repositories:
   src/Pangolin:
     type: git
     url: https://github.com/stevenlovegrove/Pangolin.git
-    version: v0.9
+    version: 099f298d785b757c8691b88a90210d99c5fcf143
+  src/apriltag:
+    type: git
+    url: https://github.com/christian-rauch/apriltag.git
+    version: 89686f4290a1cd81cbb30c620bd4b550efe71d9d
+  src/apriltag_msgs:
+    type: git
+    url: https://github.com/christianrauch/apriltag_msgs.git
+    version: 2.0.1
+  src/apriltag_ros:
+    type: git
+    url: https://github.com/christianrauch/apriltag_ros.git
+    version: 21d1849255dc0f16c7caa69bae8f415841931cd5
