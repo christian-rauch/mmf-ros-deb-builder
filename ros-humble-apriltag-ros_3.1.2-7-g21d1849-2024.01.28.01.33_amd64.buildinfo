@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-humble-apriltag-ros
 Binary: ros-humble-apriltag-ros ros-humble-apriltag-ros-dbgsym
 Architecture: amd64
-Version: 3.1.2-7-g21d1849-2024.01.28.01.22
+Version: 3.1.2-7-g21d1849-2024.01.28.01.33
 Checksums-Md5:
- 0e1968b53231d69e292b55e72a78efa2 1604780 ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.ddeb
- c85daec2c4d2e34326d53fa44c171d39 88096 ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.deb
+ 5443312653731e9aa961b067e61f39e5 1604480 ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.ddeb
+ 3f3ba211125bd2b6a4c0e8c5e63fd7d2 88100 ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.deb
 Checksums-Sha1:
- 0442b2cf451cece2bfd73c45415c55cd307c7323 1604780 ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.ddeb
- bcb72f3ca9af7bd981703443a0cb289a3acde277 88096 ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.deb
+ 5f79efb73c355c0a18b898fd1a003918c534426b 1604480 ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.ddeb
+ 565399979df9dfe872b03717b726155198806679 88100 ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.deb
 Checksums-Sha256:
- 1aef6d7114df801b205a039af1814940d633325814bdec0c132a214ba750ef39 1604780 ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.ddeb
- 96a59b5d51b373a194acfa9f55eac75a533afd49bb80232327e3cf9ef5397ff1 88096 ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.deb
+ 475082b098727281934a8468103c85fd1ba836aadcba691ecc98bbaca05bd6a0 1604480 ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.ddeb
+ 52c678794e8ba87b8b155db232e69f724711692eacbcc36b4c6fc458b36b7239 88100 ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 28 Jan 2024 01:24:15 +0000
+Build-Date: Sun, 28 Jan 2024 01:34:22 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -616,7 +616,7 @@ Installed-Build-Depends:
  ros-humble-ament-lint-auto (= 0.12.9-1jammy.20231117.163618),
  ros-humble-ament-package (= 0.14.0-4jammy.20220421.093117),
  ros-humble-apriltag (= 3.2.0-2jammy.20231117.163338),
- ros-humble-apriltag-msgs (= 2.0.1-2024.01.28.01.22),
+ ros-humble-apriltag-msgs (= 2.0.1-2024.01.28.01.32),
  ros-humble-builtin-interfaces (= 1.2.1-1jammy.20231117.183431),
  ros-humble-class-loader (= 2.2.0-3jammy.20231117.180152),
  ros-humble-composition-interfaces (= 1.2.1-1jammy.20231117.184550),
@@ -711,4 +711,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1706404978"
+ SOURCE_DATE_EPOCH="1706405586"

@@ -1,109 +1,109 @@
 Package: ros-humble-apriltag-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.01.28.01.21
+Version: 0-2024.01.28.01.31
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-apriltag
 Maintainer: Max Krogius <mkrogius@umich.edu>
-Installed-Size: 518
-Depends: ros-humble-apriltag (= 0-2024.01.28.01.21)
-Filename: ./ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
-Size: 441298
-MD5sum: d26a8d4852d59b4ea9a6b88e52a9695b
-SHA1: 2d4f7f34cafaa0e79f535211c1a398cfdda6dde6
-SHA256: 78a50ae3ebe5989091c9e88613b4b7016496215731b752f7c80333f680e09e53
-SHA512: 9a745b33e7c32217ddbc5fd604261a311782d0bac3e751a869e72088f7f387e04387f19a90cef2b699bc998e44ed30acdb8fdde6b5c02692f260ba7357d23c18
+Installed-Size: 519
+Depends: ros-humble-apriltag (= 0-2024.01.28.01.31)
+Filename: ./ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+Size: 442080
+MD5sum: e72156c0f9e05ae280f234c6b304b199
+SHA1: 0a7570a56ae562163b471a1b781229ad4ce52b86
+SHA256: b2ed08686d010d2a534f9ad85af36b913ca80bccd6bab872f2cbd81de819ffcc
+SHA512: bccd276a7573e208e492594177ea775db045ffc52452f07af09f29dcb22fd9ec3ddbafe04c5234778c4669715818a0b90c6cd016bddf227a9b1a471eda5356db
 Description: debug symbols for ros-humble-apriltag
-Build-Ids: 2b28181ac368735ab519b90e8cb4f3b03e567043 74f97aaf2f0cb3b1f9fc2bd7e5dc7d5403957314 a7825d1a83aa76b05b15e0e0b22fdd81a528cf73 f710d2c3aeb330f13d34d3e9f4a2dce517ea3d81
+Build-Ids: 3203c0097f0b849c407ca6ff3ca2ceca6bc32a19 3c5a75a2f630d1bf0c2e50ba4677bf0cb3c3ab96 a3d6976e38a65444ddf3a3f256121e38cb8ee5f3 ccb647753e69d613a29e894b286c877b44be0861
 
 Package: ros-humble-apriltag-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.0.1-2024.01.28.01.22
+Version: 2.0.1-2024.01.28.01.32
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-apriltag-msgs
 Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
 Installed-Size: 488
-Depends: ros-humble-apriltag-msgs (= 2.0.1-2024.01.28.01.22)
-Filename: ./ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.22_amd64.ddeb
-Size: 334618
-MD5sum: bdee5d7a577ff40b3d6d6c80d93972fb
-SHA1: eb430d51a78953a7b059e4da971493f2800814a4
-SHA256: 597f010f04d5589f123fc171a6507487703b2e3105f2a8a0632676bdc157b8fc
-SHA512: 04c7f8e2426b2097a87bcae10b3a3682a73e9a6e401a2a3edfef1cf98473c521e1e7afc70573dd4fa5439bf9f6c95196f17461cce752e8925065bcd859af484a
+Depends: ros-humble-apriltag-msgs (= 2.0.1-2024.01.28.01.32)
+Filename: ./ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.32_amd64.ddeb
+Size: 334672
+MD5sum: 964bb478d9925ff7b1ffac1c3659514d
+SHA1: 502cfa3030fdceb81ca57f1e3d8d32b112e75543
+SHA256: cb26f7b705c37f38aff820459be7716992206bd1dbcdacf3be3e6350a7eef451
+SHA512: 84d668db50ce31124760de84ba4b9b9ddc389241c7961b5bbff2d44ec4dc492efe871b8369ec6a303755a35b2b544bd851242d998f23deb4f295f6a466f764ad
 Description: debug symbols for ros-humble-apriltag-msgs
-Build-Ids: 08e7a93ecb160dfa6100ce72476636d1aa5beb53 2285935c4637069138abcd93fa860f8728e53c89 28976261ad8769efbc9f5a67648daf2e804130c6 3adf52f7db7e3f363caeb743d71607a93949efb7 43023d2403ca2e5af168ae7f46c38a4cd87a8dd3 460180e6a6ab1766dc2146159bb873a7ac1fda42 5adaf58f21694c1afab6a1bf16258f07f93a8d37 639e41542a199996a3b4f34aba760d51ccae409c 96ff65a8da8230a2519343e28287fc460e728097 ac2ea6ffb3f2fa98a0af759dc4d24356790b767f d883f0d4e4a347139f3fd814d99bf02f92e21a30 ed536c2a5a714da7f785f9b2c2a93da5b0ecd0ac
+Build-Ids: 1111b4c6a67e22bb2143874e4b7bcc391f65b128 32ba0f0204a1ba9879ebb32475deddfa62003610 3c24442603493d96547da2d5d3dd33e6bae06cf8 55c95048290c143ab69dc319f9c3695598f83436 5da4fb6262795d5de8bc82f8a75592fd7842159d 761faafc9d5c25de0cff9eee558a5c4b9a89c668 82521f7a24ad815b6f957c9dd66610fb331053ac a1c5ea64a26e3c665078ecdfb6d6d3fafa5624d4 b520d3dfe77ac28257bf22bc6cddf512095d9e74 c592d7cda01b9bff78b3d1a3336858ab2544888c c7e009b1174521df21888ec9756294862347cbc1 ca575b1fde84f4e3431444df83648f620d4bb2a6
 
 Package: ros-humble-apriltag-msgs
 Architecture: amd64
-Version: 2.0.1-2024.01.28.01.22
+Version: 2.0.1-2024.01.28.01.32
 Priority: optional
 Section: misc
 Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
 Installed-Size: 665
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
-Filename: ./ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.22_amd64.deb
-Size: 62146
-MD5sum: fc92b5cbf6c2b3ced6693d9718125514
-SHA1: 05082b37ad19c623aeeff35df6e7b74a07d7f850
-SHA256: 3fb0c58b868b4cd4dfceea937ded197c65f8e5f1c7e4c8f222998456db837be0
-SHA512: 892d94cca106e54ce0900fab67db3351bd5d07cabaa00f019429bc164bce85dad3bee7cdd154c874322212def4602e7d67b717f0aa9329adfa33aff91313bf4c
+Filename: ./ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.32_amd64.deb
+Size: 62174
+MD5sum: b96e6273f39e217b471285a238a04ab1
+SHA1: 75d709655f9e8cd620832b0d0ed3e9678d1416fe
+SHA256: 773225c9e51cd4dfeaaab4403a93a5817e8aae55227fc414636f664d26074266
+SHA512: c381b495340275d5bd2f64686431ef7cab705e63fc5865a901638a4052e459ee4027189766ce2558ce9d248181e60933f137befeb2f08778a095305c26255bb8
 Description: AprilTag message definitions
 
 Package: ros-humble-apriltag-ros-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 3.1.2-7-g21d1849-2024.01.28.01.22
+Version: 3.1.2-7-g21d1849-2024.01.28.01.33
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-apriltag-ros
 Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
 Installed-Size: 1706
-Depends: ros-humble-apriltag-ros (= 3.1.2-7-g21d1849-2024.01.28.01.22)
-Filename: ./ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.ddeb
-Size: 1604780
-MD5sum: 0e1968b53231d69e292b55e72a78efa2
-SHA1: 0442b2cf451cece2bfd73c45415c55cd307c7323
-SHA256: 1aef6d7114df801b205a039af1814940d633325814bdec0c132a214ba750ef39
-SHA512: 869735677141b7055ef0f7af45f4449d4717e36da6dddfcfd314e858ee60cc70262210c13f270ed2ff6af05c6ac3f9351bf2ad4c45cbdaac54536b3fbfde4b9a
+Depends: ros-humble-apriltag-ros (= 3.1.2-7-g21d1849-2024.01.28.01.33)
+Filename: ./ros-humble-apriltag-ros-dbgsym_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.ddeb
+Size: 1604480
+MD5sum: 5443312653731e9aa961b067e61f39e5
+SHA1: 5f79efb73c355c0a18b898fd1a003918c534426b
+SHA256: 475082b098727281934a8468103c85fd1ba836aadcba691ecc98bbaca05bd6a0
+SHA512: f7c8e0c12ea2bff0a71a939464e537a0d8f913e0dd377b7f7b8e524e8367b5db78b31d72e1d87396d39999c2139cb3327767d38bef18e27261a9c8820861f768
 Description: debug symbols for ros-humble-apriltag-ros
-Build-Ids: 0d05072d94960e5574c20eb1d758f694da66de8c 423da5bd42c9facda5097ac02e09128725376e87
+Build-Ids: 63a7b7b7781754dcd89551ba3313ad353b11c7fa d932c7dd2a6ba59684be433daedebb5a4bceb5f0
 
 Package: ros-humble-apriltag-ros
 Architecture: amd64
-Version: 3.1.2-7-g21d1849-2024.01.28.01.22
+Version: 3.1.2-7-g21d1849-2024.01.28.01.33
 Priority: optional
 Section: misc
 Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
 Installed-Size: 314
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-calib3d4.5d (>= 4.5.4+dfsg), libopencv-core4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-humble-apriltag, ros-humble-apriltag-msgs, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2-ros
-Filename: ./ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.22_amd64.deb
-Size: 88096
-MD5sum: c85daec2c4d2e34326d53fa44c171d39
-SHA1: bcb72f3ca9af7bd981703443a0cb289a3acde277
-SHA256: 96a59b5d51b373a194acfa9f55eac75a533afd49bb80232327e3cf9ef5397ff1
-SHA512: c2e81fcbe7c79f6595a0795c64797afcde71cc34c99440db70c2c7fd4e0583f5bdd4b7b2fd0ab98a6098bd96c7026e60383a9a26fe091cb7310264a864e556c2
+Filename: ./ros-humble-apriltag-ros_3.1.2-7-g21d1849-2024.01.28.01.33_amd64.deb
+Size: 88100
+MD5sum: 3f3ba211125bd2b6a4c0e8c5e63fd7d2
+SHA1: 565399979df9dfe872b03717b726155198806679
+SHA256: 52c678794e8ba87b8b155db232e69f724711692eacbcc36b4c6fc458b36b7239
+SHA512: 1483fe5fe328091667c6b1aeb7cee805237f8e9ffcf2ae4e68a75d5c4052987ec63faede7e2e622660cadfffd7a6f3cb3da17f0dd35c0f4278de3066d3a5e7ce
 Description: AprilTag detection node
 
 Package: ros-humble-apriltag
 Architecture: amd64
-Version: 0-2024.01.28.01.21
+Version: 0-2024.01.28.01.31
 Priority: optional
 Section: misc
 Maintainer: Max Krogius <mkrogius@umich.edu>
 Installed-Size: 1808
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-videoio4.5d (>= 4.5.4+dfsg), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2)
-Filename: ./ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
-Size: 1169608
-MD5sum: 1a227bbeef9c5f256cef8d704b3fbc33
-SHA1: 0444f5177d3ae33a5f3e14f97a8e4ae14b2533c4
-SHA256: 87a778ec46d6fb542d86b02e8f32f00130cbbe8ac78685357f36c91e82e7cd97
-SHA512: 18351e96c94fcdcce245b3bbf431030ed6e80e0e464124ea496e4b883710b1df52356578bd05605178f91b47c4a3e2b1fa925c17105e45389d06ab61acad0dbc
+Filename: ./ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
+Size: 1169656
+MD5sum: 5a8f4c44f0d20c77e9259557506ef4e1
+SHA1: 5dfccedd018ed1c0c90647e1c8ca413134d9d844
+SHA256: c6c32db94dc5c319fc41d22a5abbf4816a626b44f5e3c0f0c42db9c1639e6869
+SHA512: b0a13781dc961bbc76d06be9e657e837395b9bb64f92acb2cea60fc48afb9d30ec6d8e9cfbe85ea8ef3f5d2c9221a035589e56f44362091ea75c83a1e4c1ed31
 Homepage: https://april.eecs.umich.edu/software/apriltag.html
 Description: AprilTag detector library
 

@@ -1,94 +1,94 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on 2c63d70e0ce5
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on 1d8a29eb28f7
 
 +================================================================================+
-| ros-humble-apriltag 0-2024.01.28.01.21 (amd64) Sun, 28 Jan 2024 01:21:12 +0000 |
+| ros-humble-apriltag 0-2024.01.28.01.31 (amd64) Sun, 28 Jan 2024 01:31:18 +0000 |
 +================================================================================+
 
 Package: ros-humble-apriltag
-Version: 0-2024.01.28.01.21
-Source Version: 0-2024.01.28.01.21
+Version: 0-2024.01.28.01.31
+Source Version: 0-2024.01.28.01.31
 Distribution: jammy
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /github/home/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.HJqOUoZsJI...
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+Unpacking /github/home/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.wnCYIvANgA...
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-I: NOTICE: Log filtering will replace 'build/package//resolver-DpFwI6' with '<<RESOLVERDIR>>'
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+I: NOTICE: Log filtering will replace 'build/package//resolver-NwsKwr' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-Get:1 file:/build/package//resolver-RtEVgw/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-RtEVgw/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-RtEVgw/apt_archive ./ Release [568 B]
-Get:2 file:/build/package//resolver-RtEVgw/apt_archive ./ Release [568 B]
-Get:3 file:/build/package//resolver-RtEVgw/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-RtEVgw/apt_archive ./ Release.gpg
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+Get:1 file:/build/package//resolver-4fGwY6/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-4fGwY6/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-4fGwY6/apt_archive ./ Release [568 B]
+Get:2 file:/build/package//resolver-4fGwY6/apt_archive ./ Release [568 B]
+Get:3 file:/build/package//resolver-4fGwY6/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-4fGwY6/apt_archive ./ Release.gpg
 Get:4 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
 Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
 Get:6 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-Get:7 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [834 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
 Get:8 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1102 kB]
-Get:10 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
-Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
-Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1320 kB]
-Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1035 kB]
-Get:14 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1426 kB]
+Get:9 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1320 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1035 kB]
+Get:12 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1426 kB]
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1102 kB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [834 kB]
 Fetched 21.7 MB in 2s (11.0 MB/s)
 Reading package lists...
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -103,16 +103,16 @@ Calculating upgrade...
 Local sources
 -------------
 
-/__w/mmf-ros-deb-builder/mmf-ros-deb-builder/src/src/ros-humble-apriltag_0-2024.01.28.01.21.dsc exists in /__w/mmf-ros-deb-builder/mmf-ros-deb-builder/src/src; copying to chroot
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+/__w/mmf-ros-deb-builder/mmf-ros-deb-builder/src/src/ros-humble-apriltag_0-2024.01.28.01.31.dsc exists in /__w/mmf-ros-deb-builder/mmf-ros-deb-builder/src/src; copying to chroot
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -124,36 +124,36 @@ I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 Setup apt archive
 -----------------
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Merged Build-Depends: debhelper (>= 9.0.0), cmake, libopencv-dev, python3-dev, python3-numpy, build-essential, fakeroot
 Filtered Build-Depends: debhelper (>= 9.0.0), cmake, libopencv-dev, python3-dev, python3-numpy, build-essential, fakeroot
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-main-dummy.deb'.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
 Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [580 B]
 Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
@@ -161,27 +161,27 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [664 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [696 B]
 Fetched 1940 B in 0s (0 B/s)
 Reading package lists...
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-Get:1 file:/<<BUILDDIR>>/resolver-RtEVgw/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-RtEVgw/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-RtEVgw/apt_archive ./ Release [568 B]
-Get:2 file:/<<BUILDDIR>>/resolver-RtEVgw/apt_archive ./ Release [568 B]
-Get:3 file:/<<BUILDDIR>>/resolver-RtEVgw/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-RtEVgw/apt_archive ./ Release.gpg
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+Get:1 file:/<<BUILDDIR>>/resolver-4fGwY6/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-4fGwY6/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-4fGwY6/apt_archive ./ Release [568 B]
+Get:2 file:/<<BUILDDIR>>/resolver-4fGwY6/apt_archive ./ Release [568 B]
+Get:3 file:/<<BUILDDIR>>/resolver-4fGwY6/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-4fGwY6/apt_archive ./ Release.gpg
 Reading package lists...
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Reading package lists...
 
 Install main build dependencies (apt-based resolver)
 ----------------------------------------------------
 
 Installing build dependencies
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -371,7 +371,7 @@ The following NEW packages will be installed:
 0 upgraded, 403 newly installed, 0 to remove and 0 not upgraded.
 Need to get 247 MB of archives.
 After this operation, 1011 MB of additional disk space will be used.
-Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [704 B]
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [702 B]
 Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.3 [812 kB]
 Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.2 [91.0 kB]
 Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.12-1~22.04.3 [2242 kB]
@@ -775,7 +775,7 @@ Get:401 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-distut
 Get:402 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-dev amd64 3.10.6-1~22.04 [26.0 kB]
 Get:403 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-numpy amd64 1:1.21.5-1ubuntu22.04.1 [3467 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 247 MB in 3s (88.7 MB/s)
+Fetched 247 MB in 5s (48.2 MB/s)
 Selecting previously unselected package libpython3.10-minimal:amd64.
 (Reading database ... 10530 files and directories currently installed.)
 Preparing to unpack .../libpython3.10-minimal_3.10.12-1~22.04.3_amd64.deb ...
@@ -2085,8 +2085,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
 Setting up tzdata (2023d-0ubuntu0.22.04) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Sun Jan 28 01:21:45 UTC 2024.
-Universal Time is now:  Sun Jan 28 01:21:45 UTC 2024.
+Local time is now:      Sun Jan 28 01:31:53 UTC 2024.
+Universal Time is now:  Sun Jan 28 01:31:53 UTC 2024.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up libcap2-bin (1:2.44-1ubuntu0.22.04.1) ...
@@ -2424,10 +2424,10 @@ Processing triggers for libc-bin (2.35-0ubuntu3.6) ...
 | Check architectures                                                          |
 +------------------------------------------------------------------------------+
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Arch check ok (amd64 included in any)
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
 +------------------------------------------------------------------------------+
 | Build environment                                                            |
@@ -2445,13 +2445,13 @@ Package versions: adduser_3.118ubuntu5 adwaita-icon-theme_41.0-1ubuntu1 apt_2.4.
 Unpack source
 -------------
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Format: 1.0
 Source: ros-humble-apriltag
 Binary: ros-humble-apriltag
 Architecture: any
-Version: 0-2024.01.28.01.21
+Version: 0-2024.01.28.01.31
 Maintainer: Max Krogius <mkrogius@umich.edu>
 Homepage: https://april.eecs.umich.edu/software/apriltag.html
 Standards-Version: 3.9.2
@@ -2459,35 +2459,35 @@ Build-Depends: debhelper (>= 9.0.0), cmake, libopencv-dev, python3-dev, python3-
 Package-List:
  ros-humble-apriltag deb misc optional arch=any
 Checksums-Sha1:
- 83cc29282b7b11d826847f3e1ebea00a85dce570 28389507 ros-humble-apriltag_0-2024.01.28.01.21.tar.gz
+ 7f32f61d4b229f89207fd88387d6461e97c41ae9 28388337 ros-humble-apriltag_0-2024.01.28.01.31.tar.gz
 Checksums-Sha256:
- 1e5631948ddd267509ba97c6b9bd116c4c38ff745129862c0a41ea9cba9a5df1 28389507 ros-humble-apriltag_0-2024.01.28.01.21.tar.gz
+ b6f0533ef6aa0c414d8a5841f988d364ea968f7147359e4a609f98d7a9051f0b 28388337 ros-humble-apriltag_0-2024.01.28.01.31.tar.gz
 Files:
- b04edb19eccbc6f7899ebdf7505aef4a 28389507 ros-humble-apriltag_0-2024.01.28.01.21.tar.gz
+ f5c9bc8f7c0279e9ab26194df5484eae 28388337 ros-humble-apriltag_0-2024.01.28.01.31.tar.gz
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-dpkg-source: warning: extracting unsigned source package (ros-humble-apriltag_0-2024.01.28.01.21.dsc)
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+dpkg-source: warning: extracting unsigned source package (ros-humble-apriltag_0-2024.01.28.01.31.dsc)
 dpkg-source: info: extracting ros-humble-apriltag in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-humble-apriltag_0-2024.01.28.01.21.tar.gz
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+dpkg-source: info: unpacking ros-humble-apriltag_0-2024.01.28.01.31.tar.gz
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
 Check disk space
 ----------------
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Sufficient free space for build
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
 User Environment
 ----------------
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 APT_CONFIG=/var/lib/sbuild/apt.conf
 CCACHE_DIR=/build/ccache
 DEB_BUILD_OPTIONS=nocheck
@@ -2503,10 +2503,10 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 --: 13: ip: not found
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 dpkg-buildpackage: warning: using a gain-root-command while being root
 dpkg-buildpackage: info: source package ros-humble-apriltag
-dpkg-buildpackage: info: source version 0-2024.01.28.01.21
+dpkg-buildpackage: info: source version 0-2024.01.28.01.31
 dpkg-buildpackage: info: source distribution jammy
 dpkg-buildpackage: info: source changed by Max Krogius <mkrogius@umich.edu>
  dpkg-source --before-build .
@@ -2598,14 +2598,14 @@ make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/apriltag.dir/build.make CMakeFiles/apriltag.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[  4%] Generating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx
 [  4%] Generating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx
+[  4%] Generating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx
 [  7%] Building C object CMakeFiles/apriltag.dir/apriltag.c.o
 /usr/bin/cmake -Dsource_dir=/<<BUILDDIR>>package -Dbinary_dir=/<<BUILDDIR>>package/obj-x86_64-linux-gnu -Dsource_file=/<<BUILDDIR>>package/apriltag_py_type.docstring -Doutput_name=apriltag_py_type_docstring -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P /<<BUILDDIR>>package/CMake/vtkEncodeString.cmake
-/usr/lib/ccache/cc -Dapriltag_EXPORTS -I/<<BUILDDIR>>package -I/apriltag -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Wall -Wextra -Werror -Wno-shift-negative-value -MD -MT CMakeFiles/apriltag.dir/apriltag.c.o -MF CMakeFiles/apriltag.dir/apriltag.c.o.d -o CMakeFiles/apriltag.dir/apriltag.c.o -c /<<BUILDDIR>>package/apriltag.c
-/usr/bin/cmake -Dsource_dir=/<<BUILDDIR>>package -Dbinary_dir=/<<BUILDDIR>>package/obj-x86_64-linux-gnu -Dsource_file=/<<BUILDDIR>>package/apriltag_detect.docstring -Doutput_name=apriltag_detect_docstring -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P /<<BUILDDIR>>package/CMake/vtkEncodeString.cmake
 [  9%] Building C object CMakeFiles/apriltag.dir/apriltag_pose.c.o
+/usr/lib/ccache/cc -Dapriltag_EXPORTS -I/<<BUILDDIR>>package -I/apriltag -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Wall -Wextra -Werror -Wno-shift-negative-value -MD -MT CMakeFiles/apriltag.dir/apriltag.c.o -MF CMakeFiles/apriltag.dir/apriltag.c.o.d -o CMakeFiles/apriltag.dir/apriltag.c.o -c /<<BUILDDIR>>package/apriltag.c
 /usr/lib/ccache/cc -Dapriltag_EXPORTS -I/<<BUILDDIR>>package -I/apriltag -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Wall -Wextra -Werror -Wno-shift-negative-value -MD -MT CMakeFiles/apriltag.dir/apriltag_pose.c.o -MF CMakeFiles/apriltag.dir/apriltag_pose.c.o.d -o CMakeFiles/apriltag.dir/apriltag_pose.c.o -c /<<BUILDDIR>>package/apriltag_pose.c
+/usr/bin/cmake -Dsource_dir=/<<BUILDDIR>>package -Dbinary_dir=/<<BUILDDIR>>package/obj-x86_64-linux-gnu -Dsource_file=/<<BUILDDIR>>package/apriltag_detect.docstring -Doutput_name=apriltag_detect_docstring -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P /<<BUILDDIR>>package/CMake/vtkEncodeString.cmake
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [ 12%] Building C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o
 /usr/lib/ccache/cc -Dapriltag_EXPORTS -I/<<BUILDDIR>>package -I/apriltag -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Wall -Wextra -Werror -Wno-shift-negative-value -MD -MT CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o -MF CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o.d -o CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o -c /<<BUILDDIR>>package/apriltag_quad_thresh.c
@@ -2684,19 +2684,19 @@ cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends 
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles/opencv_demo.dir/DependInfo.cmake --color=
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f CMakeFiles/opencv_demo.dir/build.make CMakeFiles/opencv_demo.dir/build
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/build.make CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/apriltag_demo.dir/build.make CMakeFiles/apriltag_demo.dir/build
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make  -f CMakeFiles/opencv_demo.dir/build.make CMakeFiles/opencv_demo.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 87%] Building C object CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o
-/usr/lib/ccache/cc -Dapriltag_cpython_310_x86_64_linux_gnu_EXPORTS -I/<<BUILDDIR>>package/obj-x86_64-linux-gnu -I/<<BUILDDIR>>package -I/apriltag -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Wall -Wextra -Werror -Wno-shift-negative-value -MD -MT CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o -MF CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o.d -o CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o -c /<<BUILDDIR>>package/apriltag_pywrap.c
-[ 92%] Building C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o
-[ 92%] Building CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o
+[ 87%] Building CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o
 /usr/lib/ccache/c++  -I/<<BUILDDIR>>package -I/apriltag -isystem /usr/include/opencv4 -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -Wno-shift-negative-value -std=gnu++11 -MD -MT CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o -MF CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o.d -o CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o -c /<<BUILDDIR>>package/example/opencv_demo.cc
+[ 92%] Building C object CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o
+[ 92%] Building C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o
+/usr/lib/ccache/cc -Dapriltag_cpython_310_x86_64_linux_gnu_EXPORTS -I/<<BUILDDIR>>package/obj-x86_64-linux-gnu -I/<<BUILDDIR>>package -I/apriltag -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Wall -Wextra -Werror -Wno-shift-negative-value -MD -MT CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o -MF CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o.d -o CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o -c /<<BUILDDIR>>package/apriltag_pywrap.c
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package -I/apriltag -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -Wno-shift-negative-value -MD -MT CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o -MF CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o.d -o CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o -c /<<BUILDDIR>>package/example/apriltag_demo.c
 [ 95%] Linking C executable apriltag_demo
 /usr/bin/cmake -E cmake_link_script CMakeFiles/apriltag_demo.dir/link.txt --verbose=1
@@ -2705,9 +2705,9 @@ make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 /usr/bin/cmake -E cmake_link_script CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/link.txt --verbose=1
 /usr/lib/ccache/cc -fPIC -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -shared  -o apriltag.cpython-310-x86_64-linux-gnu.so CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o  -Wl,-rpath,/<<BUILDDIR>>package/obj-x86_64-linux-gnu: libapriltag.so.3.3.0 /usr/lib/x86_64-linux-gnu/libpython3.10.so -lm 
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 97%] Built target apriltag.cpython-310-x86_64-linux-gnu
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [ 97%] Built target apriltag_demo
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 97%] Built target apriltag.cpython-310-x86_64-linux-gnu
 [100%] Linking CXX executable opencv_demo
 /usr/bin/cmake -E cmake_link_script CMakeFiles/opencv_demo.dir/link.txt --verbose=1
 /usr/lib/ccache/c++ -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o -o opencv_demo  -Wl,-rpath,/<<BUILDDIR>>package/obj-x86_64-linux-gnu: libapriltag.so.3.3.0 /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d -lm /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d 
@@ -2759,17 +2759,17 @@ make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/apriltag_py_docstrings.dir/build.make CMakeFiles/apriltag_py_docstrings.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [  2%] Generating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx
-Consolidate compiler generated dependencies of target apriltag
 /usr/bin/cmake -Dsource_dir=/<<BUILDDIR>>package -Dbinary_dir=/<<BUILDDIR>>package/obj-x86_64-linux-gnu -Dsource_file=/<<BUILDDIR>>package/apriltag_detect.docstring -Doutput_name=apriltag_detect_docstring -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P /<<BUILDDIR>>package/CMake/vtkEncodeString.cmake
 [  4%] Generating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx
+/usr/bin/cmake -Dsource_dir=/<<BUILDDIR>>package -Dbinary_dir=/<<BUILDDIR>>package/obj-x86_64-linux-gnu -Dsource_file=/<<BUILDDIR>>package/apriltag_py_type.docstring -Doutput_name=apriltag_py_type_docstring -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P /<<BUILDDIR>>package/CMake/vtkEncodeString.cmake
+Consolidate compiler generated dependencies of target apriltag
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/apriltag.dir/build.make CMakeFiles/apriltag.dir/build
-/usr/bin/cmake -Dsource_dir=/<<BUILDDIR>>package -Dbinary_dir=/<<BUILDDIR>>package/obj-x86_64-linux-gnu -Dsource_file=/<<BUILDDIR>>package/apriltag_py_type.docstring -Doutput_name=apriltag_py_type_docstring -Dexport_symbol= -Dexport_header= -Dabi_mangle_symbol_begin= -Dabi_mangle_symbol_end= -Dabi_mangle_header= -Dbinary=FALSE -Dnul_terminate=FALSE -D_vtk_encode_string_run=ON -P /<<BUILDDIR>>package/CMake/vtkEncodeString.cmake
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'CMakeFiles/apriltag.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 85%] Built target apriltag
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 85%] Built target apriltag
 make  -f CMakeFiles/apriltag_demo.dir/build.make CMakeFiles/apriltag_demo.dir/depend
 make  -f CMakeFiles/opencv_demo.dir/build.make CMakeFiles/opencv_demo.dir/depend
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
@@ -2786,16 +2786,16 @@ make  -f CMakeFiles/apriltag_demo.dir/build.make CMakeFiles/apriltag_demo.dir/bu
 Consolidate compiler generated dependencies of target opencv_demo
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/opencv_demo.dir/build.make CMakeFiles/opencv_demo.dir/build
+Consolidate compiler generated dependencies of target apriltag.cpython-310-x86_64-linux-gnu
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'CMakeFiles/apriltag_demo.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-Consolidate compiler generated dependencies of target apriltag.cpython-310-x86_64-linux-gnu
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/build.make CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/build
+[ 90%] Built target apriltag_demo
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'CMakeFiles/opencv_demo.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 90%] Built target apriltag_demo
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [ 95%] Built target opencv_demo
 [ 97%] Building C object CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o
@@ -2895,62 +2895,62 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	find debian/ros-humble-apriltag -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
    dh_missing -O-v -O--buildsystem=cmake
    dh_strip -O-v -O--buildsystem=cmake
-	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.21 debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
-2b28181ac368735ab519b90e8cb4f3b03e567043
-	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/2b
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/2b/28181ac368735ab519b90e8cb4f3b03e567043.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/2b/28181ac368735ab519b90e8cb4f3b03e567043.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/2b/28181ac368735ab519b90e8cb4f3b03e567043.debug
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/1LWa4ZOw4m/stripoIIuEP debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 /tmp/1LWa4ZOw4m/stripoIIuEP
-	cat '/tmp/1LWa4ZOw4m/stripoIIuEP' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0'
-	chmod --reference /tmp/1LWa4ZOw4m/stripoIIuEP debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/2b/28181ac368735ab519b90e8cb4f3b03e567043.debug debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 /tmp/1LWa4ZOw4m/objcopyKSOCCG
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 /tmp/1LWa4ZOw4m/objcopyKSOCCG
-	cat '/tmp/1LWa4ZOw4m/objcopyKSOCCG' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0'
-	chmod --reference /tmp/1LWa4ZOw4m/objcopyKSOCCG debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
-	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.21 debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
-a7825d1a83aa76b05b15e0e0b22fdd81a528cf73
-	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a7
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a7/825d1a83aa76b05b15e0e0b22fdd81a528cf73.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a7/825d1a83aa76b05b15e0e0b22fdd81a528cf73.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a7/825d1a83aa76b05b15e0e0b22fdd81a528cf73.debug
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/1LWa4ZOw4m/strip0in_5F debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so /tmp/1LWa4ZOw4m/strip0in_5F
-	cat '/tmp/1LWa4ZOw4m/strip0in_5F' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so'
-	chmod --reference /tmp/1LWa4ZOw4m/strip0in_5F debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a7/825d1a83aa76b05b15e0e0b22fdd81a528cf73.debug debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so /tmp/1LWa4ZOw4m/objcopyB1sCtb
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so /tmp/1LWa4ZOw4m/objcopyB1sCtb
-	cat '/tmp/1LWa4ZOw4m/objcopyB1sCtb' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so'
-	chmod --reference /tmp/1LWa4ZOw4m/objcopyB1sCtb debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
-	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.21 debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
-74f97aaf2f0cb3b1f9fc2bd7e5dc7d5403957314
-	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/74
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/74/f97aaf2f0cb3b1f9fc2bd7e5dc7d5403957314.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/74/f97aaf2f0cb3b1f9fc2bd7e5dc7d5403957314.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/74/f97aaf2f0cb3b1f9fc2bd7e5dc7d5403957314.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/1LWa4ZOw4m/stripFlQw2D debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo /tmp/1LWa4ZOw4m/stripFlQw2D
-	cat '/tmp/1LWa4ZOw4m/stripFlQw2D' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo'
-	chmod --reference /tmp/1LWa4ZOw4m/stripFlQw2D debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/74/f97aaf2f0cb3b1f9fc2bd7e5dc7d5403957314.debug debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo /tmp/1LWa4ZOw4m/objcopyP9WW3C
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo /tmp/1LWa4ZOw4m/objcopyP9WW3C
-	cat '/tmp/1LWa4ZOw4m/objcopyP9WW3C' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo'
-	chmod --reference /tmp/1LWa4ZOw4m/objcopyP9WW3C debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
-	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.21 debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
-f710d2c3aeb330f13d34d3e9f4a2dce517ea3d81
-	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/f7
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/f7/10d2c3aeb330f13d34d3e9f4a2dce517ea3d81.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/f7/10d2c3aeb330f13d34d3e9f4a2dce517ea3d81.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/f7/10d2c3aeb330f13d34d3e9f4a2dce517ea3d81.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/1LWa4ZOw4m/stripqMmeYV debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo /tmp/1LWa4ZOw4m/stripqMmeYV
-	cat '/tmp/1LWa4ZOw4m/stripqMmeYV' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo'
-	chmod --reference /tmp/1LWa4ZOw4m/stripqMmeYV debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/f7/10d2c3aeb330f13d34d3e9f4a2dce517ea3d81.debug debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo /tmp/1LWa4ZOw4m/objcopylILphl
-	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo /tmp/1LWa4ZOw4m/objcopylILphl
-	cat '/tmp/1LWa4ZOw4m/objcopylILphl' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo'
-	chmod --reference /tmp/1LWa4ZOw4m/objcopylILphl debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
+	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.31 debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
+3c5a75a2f630d1bf0c2e50ba4677bf0cb3c3ab96
+	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/3c
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/3c/5a75a2f630d1bf0c2e50ba4677bf0cb3c3ab96.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/3c/5a75a2f630d1bf0c2e50ba4677bf0cb3c3ab96.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/3c/5a75a2f630d1bf0c2e50ba4677bf0cb3c3ab96.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/oxdUqTIls8/stripIdSQIg debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 /tmp/oxdUqTIls8/stripIdSQIg
+	cat '/tmp/oxdUqTIls8/stripIdSQIg' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0'
+	chmod --reference /tmp/oxdUqTIls8/stripIdSQIg debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/3c/5a75a2f630d1bf0c2e50ba4677bf0cb3c3ab96.debug debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 /tmp/oxdUqTIls8/objcopyvxHRMP
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 /tmp/oxdUqTIls8/objcopyvxHRMP
+	cat '/tmp/oxdUqTIls8/objcopyvxHRMP' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0'
+	chmod --reference /tmp/oxdUqTIls8/objcopyvxHRMP debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
+	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.31 debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
+3203c0097f0b849c407ca6ff3ca2ceca6bc32a19
+	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/32
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/32/03c0097f0b849c407ca6ff3ca2ceca6bc32a19.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/32/03c0097f0b849c407ca6ff3ca2ceca6bc32a19.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/32/03c0097f0b849c407ca6ff3ca2ceca6bc32a19.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/oxdUqTIls8/stripsISVAQ debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so /tmp/oxdUqTIls8/stripsISVAQ
+	cat '/tmp/oxdUqTIls8/stripsISVAQ' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so'
+	chmod --reference /tmp/oxdUqTIls8/stripsISVAQ debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/32/03c0097f0b849c407ca6ff3ca2ceca6bc32a19.debug debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so /tmp/oxdUqTIls8/objcopyDMRVIx
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so /tmp/oxdUqTIls8/objcopyDMRVIx
+	cat '/tmp/oxdUqTIls8/objcopyDMRVIx' > 'debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so'
+	chmod --reference /tmp/oxdUqTIls8/objcopyDMRVIx debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
+	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.31 debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
+a3d6976e38a65444ddf3a3f256121e38cb8ee5f3
+	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a3
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a3/d6976e38a65444ddf3a3f256121e38cb8ee5f3.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a3/d6976e38a65444ddf3a3f256121e38cb8ee5f3.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a3/d6976e38a65444ddf3a3f256121e38cb8ee5f3.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/oxdUqTIls8/stripbgOh_Y debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo /tmp/oxdUqTIls8/stripbgOh_Y
+	cat '/tmp/oxdUqTIls8/stripbgOh_Y' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo'
+	chmod --reference /tmp/oxdUqTIls8/stripbgOh_Y debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/a3/d6976e38a65444ddf3a3f256121e38cb8ee5f3.debug debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo /tmp/oxdUqTIls8/objcopyiDx6Ro
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo /tmp/oxdUqTIls8/objcopyiDx6Ro
+	cat '/tmp/oxdUqTIls8/objcopyiDx6Ro' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo'
+	chmod --reference /tmp/oxdUqTIls8/objcopyiDx6Ro debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo
+	debugedit --build-id --build-id-seed=ros-humble-apriltag/0-2024.01.28.01.31 debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
+ccb647753e69d613a29e894b286c877b44be0861
+	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/cc
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/cc/b647753e69d613a29e894b286c877b44be0861.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/cc/b647753e69d613a29e894b286c877b44be0861.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/cc/b647753e69d613a29e894b286c877b44be0861.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/oxdUqTIls8/stripxwpyqy debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo /tmp/oxdUqTIls8/stripxwpyqy
+	cat '/tmp/oxdUqTIls8/stripxwpyqy' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo'
+	chmod --reference /tmp/oxdUqTIls8/stripxwpyqy debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/lib/debug/.build-id/cc/b647753e69d613a29e894b286c877b44be0861.debug debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo /tmp/oxdUqTIls8/objcopyZJjtyW
+	chmod --reference debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo /tmp/oxdUqTIls8/objcopyZJjtyW
+	cat '/tmp/oxdUqTIls8/objcopyZJjtyW' > 'debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo'
+	chmod --reference /tmp/oxdUqTIls8/objcopyZJjtyW debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
 	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/share/doc
 	ln -s ros-humble-apriltag debian/.debhelper/ros-humble-apriltag/dbgsym-root/usr/share/doc/ros-humble-apriltag-dbgsym
    dh_makeshlibs -O-v -O--buildsystem=cmake
@@ -2968,7 +2968,7 @@ make[1]: Entering directory '/<<BUILDDIR>>package'
 # CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
 if [ -f "/opt/ros/humble/setup.sh" ]; then . "/opt/ros/humble/setup.sh"; fi && \
 dh_shlibdeps -l/<<BUILDDIR>>package/debian/ros-humble-apriltag//opt/ros/humble/lib/:/<<BUILDDIR>>package/debian/ros-humble-apriltag//opt/ros/humble/lib/x86_64-linux-gnu
-	dpkg-shlibdeps -Tdebian/ros-humble-apriltag.substvars -l/<<BUILDDIR>>package/debian/ros-humble-apriltag//opt/ros/humble/lib/ -l/<<BUILDDIR>>package/debian/ros-humble-apriltag//opt/ros/humble/lib/x86_64-linux-gnu debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
+	dpkg-shlibdeps -Tdebian/ros-humble-apriltag.substvars -l/<<BUILDDIR>>package/debian/ros-humble-apriltag//opt/ros/humble/lib/ -l/<<BUILDDIR>>package/debian/ros-humble-apriltag//opt/ros/humble/lib/x86_64-linux-gnu debian/ros-humble-apriltag/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0 debian/ros-humble-apriltag/opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so debian/ros-humble-apriltag/opt/ros/humble/bin/opencv_demo debian/ros-humble-apriltag/opt/ros/humble/bin/apriltag_demo
 make[1]: Leaving directory '/<<BUILDDIR>>package'
    dh_installdeb -O-v -O--buildsystem=cmake
 	install -p -m0644 debian/.debhelper/generated/ros-humble-apriltag/triggers debian/ros-humble-apriltag/DEBIAN/triggers
@@ -2976,7 +2976,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	echo misc:Depends= >> debian/ros-humble-apriltag.substvars
 	echo misc:Pre-Depends= >> debian/ros-humble-apriltag.substvars
 	install -d debian/.debhelper/ros-humble-apriltag/dbgsym-root/DEBIAN
-	dpkg-gencontrol -pros-humble-apriltag -ldebian/changelog -Tdebian/ros-humble-apriltag.substvars -Pdebian/.debhelper/ros-humble-apriltag/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-apriltag-dbgsym "-DDepends=ros-humble-apriltag (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-apriltag" "-DBuild-Ids=2b28181ac368735ab519b90e8cb4f3b03e567043 74f97aaf2f0cb3b1f9fc2bd7e5dc7d5403957314 a7825d1a83aa76b05b15e0e0b22fdd81a528cf73 f710d2c3aeb330f13d34d3e9f4a2dce517ea3d81" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	dpkg-gencontrol -pros-humble-apriltag -ldebian/changelog -Tdebian/ros-humble-apriltag.substvars -Pdebian/.debhelper/ros-humble-apriltag/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-apriltag-dbgsym "-DDepends=ros-humble-apriltag (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-apriltag" "-DBuild-Ids=3203c0097f0b849c407ca6ff3ca2ceca6bc32a19 3c5a75a2f630d1bf0c2e50ba4677bf0cb3c3ab96 a3d6976e38a65444ddf3a3f256121e38cb8ee5f3 ccb647753e69d613a29e894b286c877b44be0861" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
 	chmod 0644 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/DEBIAN/control
 	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/DEBIAN/control
 	dpkg-gencontrol -pros-humble-apriltag -ldebian/changelog -Tdebian/ros-humble-apriltag.substvars -Pdebian/ros-humble-apriltag
@@ -2991,49 +2991,49 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/.debhelper/ros-humble-apriltag/dbgsym-root/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-humble-apriltag ..
-dpkg-deb: building package 'ros-humble-apriltag' in '../ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb'.
+dpkg-deb: building package 'ros-humble-apriltag' in '../ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb'.
 	install -d debian/.debhelper/scratch-space/build-ros-humble-apriltag
 	dpkg-deb --build debian/.debhelper/ros-humble-apriltag/dbgsym-root debian/.debhelper/scratch-space/build-ros-humble-apriltag
-dpkg-deb: building package 'ros-humble-apriltag-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-apriltag/ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.deb'.
-	Renaming ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.deb to ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
-	mv debian/.debhelper/scratch-space/build-ros-humble-apriltag/ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.deb ../ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
- dpkg-genbuildinfo --build=binary -O../ros-humble-apriltag_0-2024.01.28.01.21_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-humble-apriltag_0-2024.01.28.01.21_amd64.changes
+dpkg-deb: building package 'ros-humble-apriltag-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-apriltag/ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.deb'.
+	Renaming ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.deb to ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-humble-apriltag/ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.deb ../ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+ dpkg-genbuildinfo --build=binary -O../ros-humble-apriltag_0-2024.01.28.01.31_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-humble-apriltag_0-2024.01.28.01.31_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2024-01-28T01:22:06Z
+Build finished at 2024-01-28T01:32:14Z
 
 Finished
 --------
 
 I: Built successfully
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
 +------------------------------------------------------------------------------+
 | Changes                                                                      |
 +------------------------------------------------------------------------------+
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
-ros-humble-apriltag_0-2024.01.28.01.21_amd64.changes:
+ros-humble-apriltag_0-2024.01.28.01.31_amd64.changes:
 -----------------------------------------------------
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Format: 1.8
-Date: Sun, 28 Jan 2024 01:21:11 -0000
+Date: Sun, 28 Jan 2024 01:31:16 -0000
 Source: ros-humble-apriltag
 Binary: ros-humble-apriltag
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2024.01.28.01.21
+Version: 0-2024.01.28.01.31
 Distribution: jammy
 Urgency: high
 Maintainer: Max Krogius <mkrogius@umich.edu>
@@ -3041,47 +3041,47 @@ Changed-By: Max Krogius <mkrogius@umich.edu>
 Description:
  ros-humble-apriltag - AprilTag detector library
 Changes:
- ros-humble-apriltag (0-2024.01.28.01.21) jammy; urgency=high
+ ros-humble-apriltag (0-2024.01.28.01.31) jammy; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- 2d4f7f34cafaa0e79f535211c1a398cfdda6dde6 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
- 49db51b8972da1330ec83fbfb00524bd91755f46 19794 ros-humble-apriltag_0-2024.01.28.01.21_amd64.buildinfo
- 0444f5177d3ae33a5f3e14f97a8e4ae14b2533c4 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
+ 0a7570a56ae562163b471a1b781229ad4ce52b86 442080 ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+ baafa716af2d097b26f0a67dd8776ee2f4293f42 19794 ros-humble-apriltag_0-2024.01.28.01.31_amd64.buildinfo
+ 5dfccedd018ed1c0c90647e1c8ca413134d9d844 1169656 ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
 Checksums-Sha256:
- 78a50ae3ebe5989091c9e88613b4b7016496215731b752f7c80333f680e09e53 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
- accfd2fe055d4aa7c5b564638701507a7a1adf86b40dfb5934b71e59edce8b26 19794 ros-humble-apriltag_0-2024.01.28.01.21_amd64.buildinfo
- 87a778ec46d6fb542d86b02e8f32f00130cbbe8ac78685357f36c91e82e7cd97 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
+ b2ed08686d010d2a534f9ad85af36b913ca80bccd6bab872f2cbd81de819ffcc 442080 ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+ b712b777a8562cf5225373cda86a59cb965997ad348efe4419c7e7911d64d699 19794 ros-humble-apriltag_0-2024.01.28.01.31_amd64.buildinfo
+ c6c32db94dc5c319fc41d22a5abbf4816a626b44f5e3c0f0c42db9c1639e6869 1169656 ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
 Files:
- d26a8d4852d59b4ea9a6b88e52a9695b 441298 debug optional ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
- f1511045fff66a6659d16e856cfecde9 19794 misc optional ros-humble-apriltag_0-2024.01.28.01.21_amd64.buildinfo
- 1a227bbeef9c5f256cef8d704b3fbc33 1169608 misc optional ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+ e72156c0f9e05ae280f234c6b304b199 442080 debug optional ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+ 27bb703d0b22a26396d91f4c8c376ac9 19794 misc optional ros-humble-apriltag_0-2024.01.28.01.31_amd64.buildinfo
+ 5a8f4c44f0d20c77e9259557506ef4e1 1169656 misc optional ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
 +------------------------------------------------------------------------------+
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Format: 1.0
 Source: ros-humble-apriltag
 Binary: ros-humble-apriltag ros-humble-apriltag-dbgsym
 Architecture: amd64
-Version: 0-2024.01.28.01.21
+Version: 0-2024.01.28.01.31
 Checksums-Md5:
- d26a8d4852d59b4ea9a6b88e52a9695b 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
- 1a227bbeef9c5f256cef8d704b3fbc33 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
+ e72156c0f9e05ae280f234c6b304b199 442080 ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+ 5a8f4c44f0d20c77e9259557506ef4e1 1169656 ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
 Checksums-Sha1:
- 2d4f7f34cafaa0e79f535211c1a398cfdda6dde6 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
- 0444f5177d3ae33a5f3e14f97a8e4ae14b2533c4 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
+ 0a7570a56ae562163b471a1b781229ad4ce52b86 442080 ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+ 5dfccedd018ed1c0c90647e1c8ca413134d9d844 1169656 ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
 Checksums-Sha256:
- 78a50ae3ebe5989091c9e88613b4b7016496215731b752f7c80333f680e09e53 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
- 87a778ec46d6fb542d86b02e8f32f00130cbbe8ac78685357f36c91e82e7cd97 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
+ b2ed08686d010d2a534f9ad85af36b913ca80bccd6bab872f2cbd81de819ffcc 442080 ros-humble-apriltag-dbgsym_0-2024.01.28.01.31_amd64.ddeb
+ c6c32db94dc5c319fc41d22a5abbf4816a626b44f5e3c0f0c42db9c1639e6869 1169656 ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 28 Jan 2024 01:22:06 +0000
+Build-Date: Sun, 28 Jan 2024 01:32:14 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -3629,7 +3629,7 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1706404871"
+ SOURCE_DATE_EPOCH="1706405476"
 
 
 +------------------------------------------------------------------------------+
@@ -3637,18 +3637,18 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
+ros-humble-apriltag_0-2024.01.28.01.31_amd64.deb
 ------------------------------------------------
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
  new Debian package, version 2.0.
- size 1169608 bytes: control archive=1988 bytes.
+ size 1169656 bytes: control archive=1985 bytes.
      525 bytes,    10 lines      control              
     4155 bytes,    49 lines      md5sums              
       34 bytes,     1 lines      shlibs               
       72 bytes,     2 lines      triggers             
  Package: ros-humble-apriltag
- Version: 0-2024.01.28.01.21
+ Version: 0-2024.01.28.01.31
  Architecture: amd64
  Maintainer: Max Krogius <mkrogius@umich.edu>
  Installed-Size: 1808
@@ -3658,85 +3658,85 @@ mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does 
  Homepage: https://april.eecs.umich.edu/software/apriltag.html
  Description: AprilTag detector library
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/bin/
--rwxr-xr-x root/root     22680 2024-01-28 01:21 ./opt/ros/humble/bin/apriltag_demo
--rwxr-xr-x root/root     26864 2024-01-28 01:21 ./opt/ros/humble/bin/opencv_demo
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/include/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/
--rw-r--r-- root/root     10188 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/apriltag.h
--rw-r--r-- root/root      3368 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/apriltag_math.h
--rw-r--r-- root/root      2517 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/apriltag_pose.h
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/
--rw-r--r-- root/root      2131 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/debug_print.h
--rw-r--r-- root/root      1855 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/doubles.h
--rw-r--r-- root/root     29922 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/doubles_floats_impl.h
--rw-r--r-- root/root      1854 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/floats.h
--rw-r--r-- root/root      5222 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/g2d.h
--rw-r--r-- root/root      3125 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/getopt.h
--rw-r--r-- root/root      8363 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/homography.h
--rw-r--r-- root/root      2941 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/image_types.h
--rw-r--r-- root/root      4159 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/image_u8.h
--rw-r--r-- root/root      2824 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/image_u8x3.h
--rw-r--r-- root/root      2793 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/image_u8x4.h
--rw-r--r-- root/root     16573 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/matd.h
--rw-r--r-- root/root      4876 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/math_util.h
--rw-r--r-- root/root      2410 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/pam.h
--rw-r--r-- root/root      4118 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/pjpeg.h
--rw-r--r-- root/root      2278 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/pnm.h
--rw-r--r-- root/root      2611 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/postscript_utils.h
--rw-r--r-- root/root      2756 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/pthreads_cross.h
--rw-r--r-- root/root     16194 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/string_util.h
--rw-r--r-- root/root      2011 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/svd22.h
--rw-r--r-- root/root      3077 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/time_util.h
--rw-r--r-- root/root      3715 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/timeprofile.h
--rw-r--r-- root/root      5095 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/unionfind.h
--rw-r--r-- root/root      2433 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/workerpool.h
--rw-r--r-- root/root     14346 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/zarray.h
--rw-r--r-- root/root     17176 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/zhash.h
--rw-r--r-- root/root      3461 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/common/zmaxheap.h
--rw-r--r-- root/root      1991 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tag16h5.h
--rw-r--r-- root/root      1991 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tag25h9.h
--rw-r--r-- root/root      1995 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tag36h10.h
--rw-r--r-- root/root      1995 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tag36h11.h
--rw-r--r-- root/root      2015 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tagCircle21h7.h
--rw-r--r-- root/root      2019 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tagCircle49h12.h
--rw-r--r-- root/root      2019 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tagCustom48h12.h
--rw-r--r-- root/root      2027 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tagStandard41h12.h
--rw-r--r-- root/root      2027 2024-01-28 01:21 ./opt/ros/humble/include/apriltag/tagStandard52h13.h
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/python3.10/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/python3.10/site-packages/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/python3.10/site-packages/apriltag/
--rw-r--r-- root/root     27616 2024-01-28 01:21 ./opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/x86_64-linux-gnu/
-lrwxrwxrwx root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so -> libapriltag.so.3
-lrwxrwxrwx root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3 -> libapriltag.so.3.3.0
--rw-r--r-- root/root   1514176 2024-01-28 01:21 ./opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig/
--rw-r--r-- root/root       265 2024-01-28 01:21 ./opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig/apriltag.pc
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/share/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/share/apriltag/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./opt/ros/humble/share/apriltag/cmake/
--rw-r--r-- root/root      1531 2024-01-28 01:21 ./opt/ros/humble/share/apriltag/cmake/apriltagConfig.cmake
--rw-r--r-- root/root      2878 2024-01-28 01:21 ./opt/ros/humble/share/apriltag/cmake/apriltagConfigVersion.cmake
--rw-r--r-- root/root       883 2024-01-28 01:21 ./opt/ros/humble/share/apriltag/cmake/apriltagTargets-none.cmake
--rw-r--r-- root/root      3492 2024-01-28 01:21 ./opt/ros/humble/share/apriltag/cmake/apriltagTargets.cmake
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./usr/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./usr/share/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./usr/share/doc/
-drwxr-xr-x root/root         0 2024-01-28 01:21 ./usr/share/doc/ros-humble-apriltag/
--rw-r--r-- root/root       194 2024-01-28 01:21 ./usr/share/doc/ros-humble-apriltag/changelog.Debian.gz
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/bin/
+-rwxr-xr-x root/root     22680 2024-01-28 01:31 ./opt/ros/humble/bin/apriltag_demo
+-rwxr-xr-x root/root     26864 2024-01-28 01:31 ./opt/ros/humble/bin/opencv_demo
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/include/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/
+-rw-r--r-- root/root     10188 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/apriltag.h
+-rw-r--r-- root/root      3368 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/apriltag_math.h
+-rw-r--r-- root/root      2517 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/apriltag_pose.h
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/
+-rw-r--r-- root/root      2131 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/debug_print.h
+-rw-r--r-- root/root      1855 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/doubles.h
+-rw-r--r-- root/root     29922 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/doubles_floats_impl.h
+-rw-r--r-- root/root      1854 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/floats.h
+-rw-r--r-- root/root      5222 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/g2d.h
+-rw-r--r-- root/root      3125 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/getopt.h
+-rw-r--r-- root/root      8363 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/homography.h
+-rw-r--r-- root/root      2941 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/image_types.h
+-rw-r--r-- root/root      4159 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/image_u8.h
+-rw-r--r-- root/root      2824 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/image_u8x3.h
+-rw-r--r-- root/root      2793 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/image_u8x4.h
+-rw-r--r-- root/root     16573 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/matd.h
+-rw-r--r-- root/root      4876 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/math_util.h
+-rw-r--r-- root/root      2410 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/pam.h
+-rw-r--r-- root/root      4118 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/pjpeg.h
+-rw-r--r-- root/root      2278 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/pnm.h
+-rw-r--r-- root/root      2611 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/postscript_utils.h
+-rw-r--r-- root/root      2756 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/pthreads_cross.h
+-rw-r--r-- root/root     16194 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/string_util.h
+-rw-r--r-- root/root      2011 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/svd22.h
+-rw-r--r-- root/root      3077 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/time_util.h
+-rw-r--r-- root/root      3715 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/timeprofile.h
+-rw-r--r-- root/root      5095 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/unionfind.h
+-rw-r--r-- root/root      2433 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/workerpool.h
+-rw-r--r-- root/root     14346 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/zarray.h
+-rw-r--r-- root/root     17176 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/zhash.h
+-rw-r--r-- root/root      3461 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/common/zmaxheap.h
+-rw-r--r-- root/root      1991 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tag16h5.h
+-rw-r--r-- root/root      1991 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tag25h9.h
+-rw-r--r-- root/root      1995 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tag36h10.h
+-rw-r--r-- root/root      1995 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tag36h11.h
+-rw-r--r-- root/root      2015 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tagCircle21h7.h
+-rw-r--r-- root/root      2019 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tagCircle49h12.h
+-rw-r--r-- root/root      2019 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tagCustom48h12.h
+-rw-r--r-- root/root      2027 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tagStandard41h12.h
+-rw-r--r-- root/root      2027 2024-01-28 01:31 ./opt/ros/humble/include/apriltag/tagStandard52h13.h
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/python3.10/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/python3.10/site-packages/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/python3.10/site-packages/apriltag/
+-rw-r--r-- root/root     27616 2024-01-28 01:31 ./opt/ros/humble/lib/python3.10/site-packages/apriltag/apriltag.cpython-310-x86_64-linux-gnu.so
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/x86_64-linux-gnu/
+lrwxrwxrwx root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so -> libapriltag.so.3
+lrwxrwxrwx root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3 -> libapriltag.so.3.3.0
+-rw-r--r-- root/root   1514176 2024-01-28 01:31 ./opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.3.0
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig/
+-rw-r--r-- root/root       265 2024-01-28 01:31 ./opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig/apriltag.pc
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/share/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/share/apriltag/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./opt/ros/humble/share/apriltag/cmake/
+-rw-r--r-- root/root      1531 2024-01-28 01:31 ./opt/ros/humble/share/apriltag/cmake/apriltagConfig.cmake
+-rw-r--r-- root/root      2878 2024-01-28 01:31 ./opt/ros/humble/share/apriltag/cmake/apriltagConfigVersion.cmake
+-rw-r--r-- root/root       883 2024-01-28 01:31 ./opt/ros/humble/share/apriltag/cmake/apriltagTargets-none.cmake
+-rw-r--r-- root/root      3492 2024-01-28 01:31 ./opt/ros/humble/share/apriltag/cmake/apriltagTargets.cmake
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./usr/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./usr/share/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./usr/share/doc/
+drwxr-xr-x root/root         0 2024-01-28 01:31 ./usr/share/doc/ros-humble-apriltag/
+-rw-r--r-- root/root       197 2024-01-28 01:31 ./usr/share/doc/ros-humble-apriltag/changelog.Debian.gz
 
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
 +------------------------------------------------------------------------------+
 | Post Build                                                                   |
@@ -3748,14 +3748,14 @@ mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does 
 +------------------------------------------------------------------------------+
 
 Purging /<<BUILDDIR>>
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 Not cleaning session: cloned chroot in use
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
-mount: /tmp/tmp.sbuild.HJqOUoZsJI/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
+mount: /tmp/tmp.sbuild.wnCYIvANgA/dev/console: special device /dev/console does not exist.
 
 +------------------------------------------------------------------------------+
 | Summary                                                                      |
@@ -3767,15 +3767,15 @@ Build-Space: 48016
 Build-Time: 13
 Distribution: jammy
 Host Architecture: amd64
-Install-Time: 30
-Job: /__w/mmf-ros-deb-builder/mmf-ros-deb-builder/src/src/ros-humble-apriltag_0-2024.01.28.01.21.dsc
+Install-Time: 33
+Job: /__w/mmf-ros-deb-builder/mmf-ros-deb-builder/src/src/ros-humble-apriltag_0-2024.01.28.01.31.dsc
 Machine Architecture: amd64
 Package: ros-humble-apriltag
-Package-Time: 54
-Source-Version: 0-2024.01.28.01.21
+Package-Time: 56
+Source-Version: 0-2024.01.28.01.31
 Space: 48016
 Status: successful
-Version: 0-2024.01.28.01.21
+Version: 0-2024.01.28.01.31
 --------------------------------------------------------------------------------
-Finished at 2024-01-28T01:22:06Z
-Build needed 00:00:54, 48016k disk space
+Finished at 2024-01-28T01:32:14Z
+Build needed 00:00:56, 48016k disk space
