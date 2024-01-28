@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-humble-apriltag-msgs
 Binary: ros-humble-apriltag-msgs ros-humble-apriltag-msgs-dbgsym
 Architecture: amd64
-Version: 2.0.1-2024.01.28.01.32
+Version: 2.0.1-2024.01.28.01.49
 Checksums-Md5:
- 964bb478d9925ff7b1ffac1c3659514d 334672 ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.32_amd64.ddeb
- b96e6273f39e217b471285a238a04ab1 62174 ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.32_amd64.deb
+ 5a51716b2d488354a78eb6df73bcd884 334168 ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.49_amd64.ddeb
+ 190cc8125466a5e5d413b37a3ef2ee75 62138 ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.49_amd64.deb
 Checksums-Sha1:
- 502cfa3030fdceb81ca57f1e3d8d32b112e75543 334672 ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.32_amd64.ddeb
- 75d709655f9e8cd620832b0d0ed3e9678d1416fe 62174 ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.32_amd64.deb
+ c2720c303f2bd02ece9b5161c50e050d9bd09aa4 334168 ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.49_amd64.ddeb
+ 5be145c2ad343fab90e54892db5f2d8cfaeb0319 62138 ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.49_amd64.deb
 Checksums-Sha256:
- cb26f7b705c37f38aff820459be7716992206bd1dbcdacf3be3e6350a7eef451 334672 ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.32_amd64.ddeb
- 773225c9e51cd4dfeaaab4403a93a5817e8aae55227fc414636f664d26074266 62174 ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.32_amd64.deb
+ 70170023ef81f5399de4feab160e39b10b3f28826223f1e4bba634ec1ddbe890 334168 ros-humble-apriltag-msgs-dbgsym_2.0.1-2024.01.28.01.49_amd64.ddeb
+ a02504fbe702a5b8cd601f5208905c954d951adb2d68d6cf2c07945be381f9c5 62138 ros-humble-apriltag-msgs_2.0.1-2024.01.28.01.49_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 28 Jan 2024 01:33:02 +0000
+Build-Date: Sun, 28 Jan 2024 01:50:26 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -348,4 +348,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1706405538"
+ SOURCE_DATE_EPOCH="1706406579"

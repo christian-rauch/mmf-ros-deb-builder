@@ -2,7 +2,7 @@ repositories:
   src/apriltag:
     type: git
     url: https://github.com/christian-rauch/apriltag.git
-    version: c7783d5afd7115deca6d0f57b79e0ea24b185477
+    version: caa865a30fc20d31edec8a3c875cf2fe5cf010b1
   src/apriltag_msgs:
     type: git
     url: https://github.com/christianrauch/apriltag_msgs.git
