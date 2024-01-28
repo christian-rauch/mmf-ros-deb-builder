@@ -7,6 +7,3 @@ apriltag_msgs:
 apriltag_ros:
   ubuntu:
   - ros-humble-apriltag-ros
-pangolin:
-  ubuntu:
-  - ros-humble-pangolin
