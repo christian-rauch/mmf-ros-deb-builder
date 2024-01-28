@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-humble-apriltag
 Binary: ros-humble-apriltag ros-humble-apriltag-dbgsym
 Architecture: amd64
-Version: 0-2024.01.28.00.55
+Version: 0-2024.01.28.01.21
 Checksums-Md5:
- 02827b976dc82e26dfade4063e12ce83 442074 ros-humble-apriltag-dbgsym_0-2024.01.28.00.55_amd64.ddeb
- dfcbf13e2af4e5af363cf5afbbce2689 1169672 ros-humble-apriltag_0-2024.01.28.00.55_amd64.deb
+ d26a8d4852d59b4ea9a6b88e52a9695b 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
+ 1a227bbeef9c5f256cef8d704b3fbc33 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
 Checksums-Sha1:
- 44746ed070c0e7933dfa608ca1841582c58bd123 442074 ros-humble-apriltag-dbgsym_0-2024.01.28.00.55_amd64.ddeb
- b3e176d77718d0db9b296e39bf2978984cf08015 1169672 ros-humble-apriltag_0-2024.01.28.00.55_amd64.deb
+ 2d4f7f34cafaa0e79f535211c1a398cfdda6dde6 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
+ 0444f5177d3ae33a5f3e14f97a8e4ae14b2533c4 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
 Checksums-Sha256:
- a65d61d34dc908c58255b376499c389a9183e0139f3e7df7486262ddfa551c30 442074 ros-humble-apriltag-dbgsym_0-2024.01.28.00.55_amd64.ddeb
- 2ab8f57f01390b0bec9fa1df6b5660b014e3d116528da01c5dd35d380c124b8e 1169672 ros-humble-apriltag_0-2024.01.28.00.55_amd64.deb
+ 78a50ae3ebe5989091c9e88613b4b7016496215731b752f7c80333f680e09e53 441298 ros-humble-apriltag-dbgsym_0-2024.01.28.01.21_amd64.ddeb
+ 87a778ec46d6fb542d86b02e8f32f00130cbbe8ac78685357f36c91e82e7cd97 1169608 ros-humble-apriltag_0-2024.01.28.01.21_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 28 Jan 2024 00:57:00 +0000
+Build-Date: Sun, 28 Jan 2024 01:22:06 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -562,4 +562,4 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1706403359"
+ SOURCE_DATE_EPOCH="1706404871"
