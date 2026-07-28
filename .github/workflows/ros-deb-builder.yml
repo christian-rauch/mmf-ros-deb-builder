@@ -10,13 +10,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
-          DEB_DISTRO: noble
-          ROS_DISTRO: jazzy
+          DEB_DISTRO: resolute
+          ROS_DISTRO: lyrical
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
           SBUILD_CONF: "$enable_network = 1;"
